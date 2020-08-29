@@ -2,7 +2,6 @@
 title: "Kiivi"
 author: "Suvi Mäenpää"
 muistiinpanoja: ["Kasvien hoito"]
-draft: true
 ---
 
 Valon tarve: valoisa, ei suora auringonvalo. Talvisin olisi hyvä olla apuna kasvivalaisin. Ei siedä lainkaan kylmyyttä.

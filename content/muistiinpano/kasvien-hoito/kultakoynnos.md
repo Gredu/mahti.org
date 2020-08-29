@@ -2,7 +2,6 @@
 title: "Kultaköynnös"
 author: "Suvi Mäenpää"
 muistiinpanoja: ["Kasvien hoito"]
-draft: true
 ---
 
 Valon tarve: puolivarjo. Ei suora auringonvalo 
