@@ -24,35 +24,35 @@ Siivouksen ja kokousten päätösten valvominen on jo työtä itsessään, joka 
 
 ## Diktatuuri
 
-Diktatuuri syntyi vahingossa, vaikka siihen johtaneet syyt olivat loogisia. Kokouksia oli turha pitää, koska kokouksen päätöksiä ei noudatettu, vaikka kokouksessa siihen luvattiin. Suuri osa asukkaista ei halunnut osallistua kokouksiin, tai halusivat että muut tekevät päätökset. Siivousvuorolistojen tekeminen oli turhaa, koska siivous tapahtui vasta sitten kun patistettiin.
+Diktatuuri syntyi vahingossa, vaikka siihen johtaneet syyt olivat loogisia. Kokouksia oli turha pitää, koska kokouksen päätöksiä ei noudatettu, vaikka niihin oltiin sitouduttu. Suurin osa asukkaista ei halunnut osallistua kokouksiin, ja jotkut halusivat, että muut tekevät päätökset. Siivousvuorolistojenkin tekeminen oli turhaa, koska siivous tapahtui vasta kun patistettiin.
 
-Diktatuurinen hallitusmuoto kesti vuoden, eikä se kovin hyvää aikaa ollut kenellekään. Muut asukkaat kuitenkin hyväksyivät ja luottivat siihen, että yksi henkilö teki oikeat päätökset koko kommuunin puolesta. Toivottiin jopa, että siivousvuoroista muistutetaan ja käsketään siivoamaan, koska siivousvuorolistan seuraaminen oli liian työlästä.
+Diktatuurinen hallitusmuoto kesti vuoden, eikä se kovin hyvää aikaa ollut kenellekään. Muut asukkaat hyväksyivät ja luottivat siihen, että yksi henkilö teki oikeat päätökset koko kommuunin puolesta. Toivottiin jopa, että siivousvuoroista muistutetaan ja käsketään siivoamaan, koska siivousvuorolistan seuraaminen oli liian työlästä.
 
-Diktatuuri on managerointi helvettiä, koska tehtävien annossa pitää olla erittäin täsmällinen. Jotkut asukkaat osaavat ymmärtää tehtävän annot heille itselleen edullisemmalla tavalla. Jos roskat piti viedä, ne vietiin eteiseen, eikä jätekatokseen. Jos tehtävän antona on siivota olohuone, silloin vain siirrellään vähän tavaroita paikoilleen, vaikka pitäisi ottaa imuri käteen ja rättejä pyyhkimään tasoilta pölyt. Kun kaikki työ on tehty, on vielä kerrottava, että siivousvälineet omille paikoilleen, koska niitä ei voi jättää lojumaan. Siivousvälineiden vieminen takaisin paikoilleen, on ikään kuin uusi tehtävä.
+Diktatuuri on managerointi helvettiä, koska tehtävien annossa pitää olla erittäin täsmällinen. Jotkut asukkaat haluavat ymmärtää tehtävän annot heille itselleen edullisemmalla tavalla. Jos roskat pitää viedä, ne tulee viedä jätekatokseen, eikä jätetä eteiseen. Jos tehtävän antona on olohuoneen siivoaminen, silloin pitäisi imuroida lattia ja pyykiä pölyt tasoilta, eikä vain siirrellä vähän tavaroita paikoilleen. Kun kaikki työ on tehty, on vielä muistutettava erikseen, että siivousvälineet on vietävä omille paikoilleen, koska niitä ei voi jättää lojumaan. Siivousvälineiden vieminen takaisin paikoilleen on ikään kuin uusi tehtävä.
 
-Hauskimmat vastaväitteet siivoamisen tarpeelle on ollut, että siivoaminen on turhaa, koska kaikki kuitenkin likaantuu.
+Hauskimmat vastaväitteet siivoamisen tarpeelle on ollut, että siivoaminen on turhaa, koska kaikki paikat kuitenkin likaantuvat.
 
-Diktaattoriajan hyvä juttu oli se, että sen seurauksena luotiin kommuunille omat nettisivut, johon kaikki ohjeet, säännöt ja sopimukset kirjattiin. Pääsääntöisesti monet säännöt ovat suhteellisen itsestään selviä asioita, mutta joskus näistäkin oli kirjoitettava sääntöjä. Itsestäänselvistä säännöistä on kirjoitettu [oma blogi]({{< ref "/blogi/kontulan-kommuuni/itsestaanselvia-saantoja.md" >}}).
+Diktaattoriajan hyvä juttu oli se, että sen seurauksena kommuunille luotiin omat nettisivut, johon kaikki ohjeet, säännöt ja sopimukset kirjattiin. Pääsääntöisesti monet säännöt ovat suhteellisen itsestään selviä asioita, mutta joskus näistäkin oli kirjoitettava sääntöjä. Itsestäänselvistä säännöistä on kirjoitettu [oma blogi]({{< ref "/blogi/kontulan-kommuuni/itsestaanselvia-saantoja.md" >}}).
 
-Kommuunin nettisivut ovat helpottaneet työtaakkaa, koska asukkaat voidaan ohjata lukemaan nettisivuilta ohjeita ja tehtäviä. Nettisivut toivat myös enemmän reiluuden tunnetta. Se takasi, että sääntöjä ei vain luotu tyhjästä aina sopivan tilanteen tultaessa.
+Kommuunin nettisivut ovat helpottaneet työtaakkaa, koska asukkaat voidaan ohjata lukemaan nettisivuilta ohjeita ja tehtäviä. Nettisivut tuovat myös enemmän reiluuden tunnetta. Se takaa, että sääntöjä ei vain luotu tyhjästä aina sopivan tilanteen tullessa.
 
-Diktatuurisen kauden huonoja puolia oli asukkaiden etääntyminen kommuunista. Vaikka asukkaat alkoivat etääntyä jo demokraattisen kauden aikana, oli diktatuurinen hallitusmuoto etääntymistä kannustava. Tavoitteena oli kuitenkin luoda toimiva kommuuni, jossa olisi siistiä ja kaikkille voitiin taata yörauha. Bonuksena vielä hyvä seura, mutta kuitenkin mahdollisuus rauhoittua silloin kun sitä kaipasi. Pystyisikö ventovieraista luomaan toimivaa kommuunia? Diktaattorimainen hallitus ei ainakaan tähän tavoitteeseen sopinut ollenkaan.
+Diktatuurisen kauden huonoja puolia oli asukkaiden etääntyminen kommuunista. Vaikka asukkaat alkoivat etääntyä jo demokraattisen kauden aikana, oli diktatuurinen hallitusmuoto etääntymistä kannustava. Tavoitteena oli kuitenkin luoda toimiva kommuuni, jossa olisi siistiä ja kaikille voitiin taata yörauha. Bonuksena olisi vielä asukkaiden hyvä seura, mutta kuitenkin mahdollisuus rauhoittua silloin kun sitä kaipasi. Pystyisikö ventovieraista luomaan toimivaa kommuunia? Diktaattorimainen hallitus ei ainakaan tähän tavoitteeseen sopinut ollenkaan.
 
 Uuden hallitusmuodon tulisi jakaa vastuuta ja valtaa tasaisesti. Demokratiassa valta jakaantui tasaisesti, mutta vastuu ei. Diktatuurissa vastuu ja valta oli vain yhdellä.
 
 ## Feodaalinen läänitysperiaate
 
-Uusi hallitusmuoto toimii yksinkertaisuudessa seuraavanlaisesti: jokainen saa oman alueen kommuunista hoidettavakseen, ja siinä alueessa hän saa määrätä omia sääntöjä, joilla voi helpottaa alueensa työtaakkaa, eli käytännössä siivousmääräänsä. Alueensa vastaava joutuu itse valvomaan, että sääntöjä noudatetaan. Vain päävuokralainen voi purkaa säännöt, jos näkee ne liian kohtuuttomiksi.
+Uusi hallitusmuoto toimii yksinkertaisuudessa seuraavanlaisesti: jokainen saa oman alueensa kommuunissa hoidettavakseen, ja sillä alueella hän saa määrätä omia sääntöjä helpottamaan työtaakkaansa, eli käytännössä siivousmääräänsä. Alueensa vastaava joutuu itse valvomaan, että sääntöjä noudatetaan. Vain päävuokralainen voi purkaa säännöt, jos näkee ne liian kohtuuttomiksi.
 
 Laatu mitataan valitusten määrällä. Jokainen asukas tietää mistä alueesta kukin vastaa, joten valitusten pitäisi mennä oikeaan osoitteeseen.
 
 Tämän hallituksen lempinimeksi tuli feodaalinen hallitusmuoto. Kontulan Kommuuni jaettiin alueisiin, joilla oli autonominen itsemääräämisoikeus, johon vain päävuokralainen pystyi vaikuttamaan.
 
-Uusi hallitusmuoto toimi hyvin ja on toiminut lähes muuttumattomana tähän päivään asti. Vasta kolmen vuoden jälkeen uusi järjestelmä alkoi yskimään, koska taloon oli muuttanut muutamia henkilöitä, jotka eivät ymmärtäneet miten järjestelmä toimii tai olivat välinpitämättömiä saamilleen valituksilleen. Heidän takia järjestelmää piti kehittää.
+Uusi hallitusmuoto toimi hyvin ja on toiminut lähes muuttumattomana tähän päivään asti. Vasta kolmen vuoden jälkeen uusi järjestelmä alkoi yskimään, koska taloon muutti muutamia henkilöitä, jotka eivät ymmärtäneet järjestelmää tai olivat välinpitämättömiä saamilleen valituksilleen. Heidän takiaan järjestelmää piti kehittää.
 
-Ne jotka eivät voineet ottaa vastuuta, määrättiin noudattamaan siivousvuorolistaa. Mentiin siis hieman takaisin diktaattorimaisempaan suuntaan. Piti jälleen valvoa, että siivousvuorolistaa noudatettiin, ja ohjeet siivoukseen oli laadittava tarkasti.
+Asukkaat jotka eivät voineet ottaa vastuuta, määrättiin noudattamaan siivousvuorolistaa. Mentiin siis hieman takaisin diktaattorimaisempaan suuntaan. Siivousohjeet laadittiin tarkasti, ja niiden sekä siivousvuorolistan valvomista piti jälleen valvoa.
 
-Joitakin valvominen ahdisti, mutta jos siivousvuoroja ei valvottu, niitä ei myöskään toteutettu (kokeiltiin ilman valvontaa, ja se ei toiminut; siivous oli jo kaksi viikkoa myöhässä, joten oli pakko laittaa tälle stoppi). Haluttiin siivota silloin, kun fiilis on oikea, eli ei mitään siivousvuorolistaa. Tätä myös kokeiltiin, mutta silloin siivous tapahtui noin kerran kuussa heikolla laadulla. Pahimmillaan siivottiin kerran puolessatoista kuukaudessa.
+Joitakin valvominen ahdisti, mutta jos siivousvuoroja ei valvottu, niitä ei myöskään toteutettu (kokeiltiin ilman valvontaa, ja se ei toiminut; siivous oli jo kaksi viikkoa myöhässä, joten oli pakko laittaa tälle stoppi). Haluttiin siivota silloin, kun fiilis on oikea, eli ei mitään siivousvuorolistaa. Tätä myös kokeiltiin, mutta silloin siivous tapahtui noin kerran kuussa. Pahimmillaan siivottiin kerran puolessatoista kuukaudessa.
 
 <!-- Sääntöjen kertaus: -->
 <!--  -->
@@ -65,14 +65,14 @@ Joitakin valvominen ahdisti, mutta jos siivousvuoroja ei valvottu, niitä ei my�
 <!--  -->
 <!-- Kommuunissa on ollut tilanne, missä A kehottaa B:tä kapinoimaan lakkoilemalla, eli käytännössä lopettamaan kaikki siivousvelvotteet kommuunia kohtaan. Henkilö A on myöhemmin valittanut, että kommuunissa on likaista. -->
 
-Jotta eläminen kommuunissa olisi kaikille reilua, päätettiin että ne, jotka eivät osallistuneet kommuunin siivoamiseen millään tavalla, tulee maksaa kuussa 20 € joko kommuunipankille tai niille, jotka ovat hoitaneet vastuualueensa hyvin. 20 € on erittäin pieni summa siihen nähden miten paljon jotkut asukkaat ovat kommuunin eteen tehneet töitä. Jos tähänkään ei suostuta, saa lähteä kommuunista.
+Kommuunin kotityöt pitäisi jakaantua tasapuolisesti ja reilusti jokaisen asukkaan kesken. Päätettiin että ne, jotka eivät osallistuneet kommuunin siivoamiseen millään tavalla, maksavat kuussa 20 € joko kommuunipankille tai hänen vastuualueensa ottavalle. 20 € on erittäin pieni summa siihen nähden, miten paljon jotkut asukkaat ovat kommuunin eteen tehneet töitä. Jos tähänkään ei suostuta, saa lähteä kommuunista.
 
 ## Kontulan Kommuuni toimii
 
-Aina kun uusi hallitusmuoto on luotu, on se toiminut alkuun melko hyvin. Demokratia toimi noin kaksi vuotta hyvin. Feodaalisella hallituksella on ainakin neljä hyvää vuotta takana. Diktatuurinen hallitus on ollut toimiva puolisen vuotta.
+Aina kun uusi hallitusmuoto on luotu, se on toiminut alkuun melko hyvin. Demokratia toimi hyvin noin kaksi vuotta, diktatuurinen hallitus puoli vuotta. Feodaalinen hallitusmuoto on toiminut hyvin ainakin neljä vuotta. 
 
-Hallitusmuotojen suurimmat haasteet ovat olleet uudet asukkaat. Usein uudet asukkaat ovat vaatineet asioiden muuttamista heidän haluamalleen tavalle. Tietenkin hallitusmuodon on palveltava asukkaitaan, mutta sen on myös otettava huomioon yhteisö. Yksilön edut ovat usein ristiriidassa yhteisön etujen kanssa. On yksilön etu, että ei tarvitse siivota, tiskata tai voi meluta yön yli, mutta tämä ei ole kommuunille hyvä.
+Hallitusmuotojen suurimmat haasteet ovat olleet uudet asukkaat. Usein he ovat vaatineet asioiden muuttamista oman mielensä mukaiseksi. Tietenkin hallitusmuodon on palveltava asukkaitaan, mutta sen on myös otettava huomioon yhteisö. Yksilön edut ovat usein ristiriidassa yhteisön etujen kanssa. On yksilön etu, että ei tarvitse siivota, tiskata tai voi meluta yön yli, mutta tämä ei ole kommuunille hyvä.
 
-Kirjoituksesta saattaa tulla vaikutelma, että kommuunissa eläminen on raskasta, ja se on täynnä sääntöjä, on kommuuni isossa mittakaavassa toiminut hyvin. Tässä kirjoituksessa on käsitelty niitä käännekohtia, jotka aiheuttivat hallitusmuodon vaihtumisen. Yleensäkin murroskohdissa on konflikteja, ja siksi kertomus tuntuu olevan täynnä konflikteja. Mukaan mahtuu kuitenkin monta vuotta rauhallisia aikoja.
+Kirjoituksesta saattaa tulla vaikutelma, että kommuunissa eläminen olisi raskasta ja että se olisi täynnä sääntöjä, mutta kommuuni on isossa mittakaavassa toiminut kuitenkin hyvin. Tässä kirjoituksessa on käsitelty niitä käännekohtia, jotka aiheuttivat hallitusmuodon vaihtumisen. Yleensäkin murroskohdissa on konflikteja, ja siksi kertomus tuntuu olevan täynnä konflikteja. Mukaan mahtuu kuitenkin monta rauhallista vuotta.
 
 Ehkä joskus tulevaisuudessa Kontulan Kommuuni keksii paremman hallitusmuodon kuin mikä meillä nykyään on. Ehkä joskus ei sääntöjä tarvita lainkaan tai mitään hallitusmuotoa.
