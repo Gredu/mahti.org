@@ -5,8 +5,19 @@ muistiinpanoja: ["Kasvien hoito"]
 draft: true
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Valon tarve: puolivarjo. Ei suora auringonvalo 
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Multa: viherkasvimulta
 
-kultaköynnös, kasvien hoito.
+Kastelu: tarvitsee runsaasti vettä, joskus jopa aamuin ja illoin. Kannattaa tunnustella käsin mullan kosteutta ja kastella tarvittaessa
+
+Lannoitusaika: toukokuun puoliväli
+
+Sumuttelu: Pitää siitä
+
+Siementen istuttaminen: otollinen aika vuodesta on tammi-helmikuu. Multaruukkuun istutetaan 2-3 siementä, jotka alkavat orastamaan jo kahden viikon kuluttua istuttamisesta.
+
+Kasvin lisääminen: kasvia voi lisätä pistokkaista leikkaamalla oksan pehmeän osan irti viistossa kulmassa. Oksasta poistetaan suurimmat lehdet, nuput ja kukat, jonka jälkeen sen voi suoraa istuttaa tavallisella mullalla täytettyyn ruukkuun.
+
+Ongelmat: Kirvat alkavat helposti vaivaamaan chiliä, mutta niihin auttaa kasvin sumuttelu saippualiuoksella.
+

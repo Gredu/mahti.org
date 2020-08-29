@@ -5,8 +5,14 @@ muistiinpanoja: ["Kasvien hoito"]
 draft: true
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Valon tarve: valoisa, ei suora auringonvalo. Talvisin olisi hyvä olla apuna kasvivalaisin. Ei siedä lainkaan kylmyyttä.
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Multa: viherkasvimulta, puutarhamulta
 
-Kiivi, kasvien hoito.
+Kastelu: tarvitsee runsaasti vettä, mutta vesi ei saa jäädä seisomaan multaan.
+
+Siementen istuttaminen: otollinen vuodenaika on kesä.
+
+Kasvin lisääminen: kasvia voi lisätä pistokkaista.
+
+Ongelmat: Kasvia ei kannata kasvattaa kovin pimeässä, sillä muuten se kasvattaa lähinnä pituutta ilman lehtiä. Nukkapintaisena se kerää paljon pölyä.
