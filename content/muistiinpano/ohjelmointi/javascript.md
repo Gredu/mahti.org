@@ -287,6 +287,346 @@ console.log('output', JSON.stringify(output, null, 2))
 
 {{< /highlight >}}
 
+### Sulkeumat
+
+Funktioilla on pääsy funktion ulkopuolella määriteltyihin muuttujiin.
+
+{{< highlight javascript >}}
+
+let me = "Bruce Wayne"
+
+function greetMe() {
+  console.log("Hello, " + me + "!")
+}
+
+{{< /highlight >}}
+
+Kun funktio käynnistetään...
+
+{{< highlight javascript >}}
+
+greetMe()
+
+{{< /highlight >}}
+
+... tulostaa ohjelma `Bruce Wayne`, koska funktio pääsee käsiksi muuttujaan `me`. Arvo luetaan aidosti muuttujasta sillä seuraava ohjelma tulostaa `Batman`:
+
+{{< highlight javascript >}}
+
+me = "Batman"
+greetMe()
+
+{{< /highlight >}}
+
+Jos kieli ei tue sulkeumia, olisi muuttuja annettava argumenttina funktioille tai metodeille.
+
+### Curry-muunnos
+
+Muunnetaan funktio yksi parametrisiksi. Funktio palauttaa toisen funktion, jolla on nämä "toiset" parametrit. Käytännössä kaikki funktiot voivat palauttaa funktion, joilla on myös vain yksi parametri. Esimerkiksi jos funktiolla on kolme parametriä, Curry muunnokselta siitä saadaan kolmen funktion ketju. Näillä funktioilla on jokaisella vain yksi parametri. Funktio toimii kuitenkin samalla tavalla kuin funktio silloin, kun sillä oli kolme parametriä.
+
+{{< highlight javascript >}}
+
+let dragon = (name, size, element) => 
+  name + 'is a ' +
+  size + ' dragon that breathes ' +
+  element + '!'
+
+{{< /highlight >}}
+
+Curry-muunnos:
+
+{{< highlight javascript >}}
+
+let dragon =
+  name =>
+    size =>
+      element =>
+        name + 'is a ' +
+        size + ' dragon that breathes ' +
+        element + '!'
+
+{{< /highlight >}}
+
+Tätä funktiota kutsutaan hieman eritavalla:
+
+{{< highlight javascript >}}
+
+console.log(dragon('fluffykins')('tiny')('lightning'))
+
+{{< /highlight >}}
+
+Saadaan funktiot pilkottua:
+
+{{< highlight javascript >}}
+
+let fluffykinsDragon = dragon ('fluffykins')
+let tinyDrdagon = fluffykinsDragon('tiny')
+console.log(tinyDragon('lightning'))
+
+{{< /highlight >}}
+
+Esimerkki Curryttamisen hyödyllisyydestä:
+
+{{< highlight javascript >}}
+
+let dragons = [
+  { name: 'fluffykins', element: 'lightning' },
+  { name: 'noomi', element: 'lightning' },
+  { name: 'karo', element: 'fire' },
+  { name: 'doomer', element: 'timewarp' }
+]
+
+let hasElement =
+  (element, obj) => obj.element === element
+
+let lightningDragons =
+  dragons.filter(x => hasElement('lightning', x))
+
+{{< /highlight >}}
+
+Tuodaan projektiin `lodash`, joka Curryttaa. Tämän jälkeen sama ohjelma voidaan kirjoittaa muodossa:
+
+{{< highlight javascript >}}
+
+import _ from 'lodash'
+
+let dragons = [
+  { name: 'fluffykins', element: 'lightning' },
+  { name: 'noomi', element: 'lightning' },
+  { name: 'karo', element: 'fire' },
+  { name: 'doomer', element: 'timewarp' }
+]
+
+let hasElement =
+  _.curry((element, obj) => obj.element === element)
+
+let lightningDragons =
+  dragons.filter(hasElement('lightning'))
+
+{{< /highlight >}}
+
+### Rekursio
+
+Funktio joka laskee kymmenestä alaspäin:
+
+{{< highlight javascript >}}
+
+countDown(10)
+
+{{< /highlight >}}
+
+Funktion toteutus rekursiolla:
+
+{{< highlight javascript >}}
+
+let countDownFrom = num => {
+  if (num === 0) return
+  console.log(num)
+  countDownFrom(num - 1)
+}
+
+{{< /highlight >}}
+
+Kaikki minkä rekursio pystyy tekemään, pystytään sama tehdä toistolauseilla, mutta ei kuitenkaan toisinpäin. Rekursio on hyvä työkalu, joka toimii joihinkin ongelmiin paremmin kuin toistolause. Edellinen tehtävä olisi esimerkiksi voitu ratkaista toistolauseella helpommin. Rekursiolla ratkaisu toimii paremmin esimerkiksi seuraavaan ongelmaan.
+
+On seuraavanlainen taulukko, joka sisältää objekteja:
+
+{{< highlight javascript >}}
+
+let categories = [
+  { id: 'animals', 'parent': null },
+  { id: 'mammals', 'parent': 'animals' },
+  { id: 'cats', 'parent': 'mammals' },
+  { id: 'dogs', 'parent': 'mammals' },
+  { id: 'chihuahua', 'parent': 'dogs' },
+  { id: 'labrador', 'parent': 'dogs' },
+  { id: 'persian', 'parent': 'cats' },
+  { id: 'siamese', 'parent': 'cats' }
+]
+
+{{< /highlight >}}
+
+Yritetään rekursiota käyttämällä ellinen taulukko seuraavanlainen muoto:
+
+{{< highlight javascript >}}
+
+{
+  animals: {
+    mammals: {
+      dogs: {
+        chihuahua: null
+        labrador: null
+      },
+      cats: {
+        persian: null
+        siamese: null
+      }
+    }
+  }
+}
+
+{{< /highlight >}}
+
+Vastaus:
+
+{{< highlight javascript >}}
+
+let makeTree = (categories, parent) = {
+  let node = {}
+  categories
+    .filter(c = > c.parent == parent)
+    .forEach(c => node[c.id] = makeTree(categories, c.id))
+  return node
+
+console.log(
+  JSON.stringify(
+    makeTree(categories, null)
+    , null, 2)
+)
+
+{{< /highlight >}}
+
+### Lupaukset
+
+Lupaukset toimivat kuten `callback` funktiot, mutta ovat hieman voimakkaampia.
+
+{{< highlight javascript >}}
+
+import loadImagePromised from './load-image-promised'
+
+loadImagePromised('images/cat1.jpg')
+  .then((img) => {
+    let imgElement = document.createElement('img')
+    imgElement.src = img.src
+    document.body.appendChild(imgElement)
+  })
+
+{{< /highlight >}}
+
+Lupaksilla on `.then` metodi. Tämän funktion algoritmi käynnistyy, kun edellinen funktio on valmis, eli tässä tapauksessa `loadImagePromised`.
+
+Samaa tekevä funktio, jossa on `callback`:
+
+{{< highlight javascript >}}
+
+loadImagePromised('images/cat1.jpg', (error, img) =>
+    let imgElement = document.createElement('img')
+    imgElement.src = img.src
+    document.body.appendChild(imgElement)
+  })
+
+{{< /highlight >}}
+
+Alkuun näyttä siltä, että `callback` funktio on kompaktimpi kuin lupaukset. Tilanne kuitenkin monimutkaistuu, jos on monta `callback` funktiota. Seuraavassa monta `callback` funktiota. Joskus kutsutaan myös `callback` helvetiksi.
+
+{{< highlight javascript >}}
+
+let addImg = (src) => {
+  let img = document.createElement("img")
+  imgElement.src = src
+  document.body.appendChild(imgElement)
+}
+
+loadImageCallbacked('imges/cat1.jpg', (error, img1) => {
+  addImg(img1.src)
+  loadImageCallbacked('images/cat2.jpg', (error, img2) => {
+    addImg(img2.src)
+    loadImageCallbacked('imges/cat3.jpg', (error, img3) => {
+      addImg(img3.src)
+    })
+  })
+})
+
+{{< /highlight >}}
+
+Edellinen ohjelma ei suorita funktioita samanaikaisesti, vaikka siihen voisi. Edellisessä ohjelmassa ei ole otettu huomioon virhe-ilmoitukset. Todellisessa tilanteesta `callback` funktiot saattavat isokokoisia ja vaikea pitää järkevänä.
+
+`callback` näyttää tältä:
+
+{{< highlight javascript >}}
+
+function loadImage(url, callback) {
+  let image = new Image()
+  image.onload = function() {
+    callback(null, image)
+  }
+  image.onerror = function () {
+    let message = 'Could not load image at ' + url
+    callback(new Error(msg))
+  }
+  image.src = url
+}
+
+export default loadImage
+
+{{< /highlight >}}
+
+Sama, mutta käytetty lupauksia:
+
+{{< highlight javascript >}}
+
+function loadImage(url) {
+  return new Promise((resolve, reject) => {
+    let image = new Image()
+    image.onload = function() {
+      resolve(image)
+    }
+    image.onerror = function () {
+      let message = 'Could not load image at ' + url
+      reject(new Error(msg))
+    }
+    image.src = url
+  })
+}
+
+export default loadImage
+
+{{< /highlight >}}
+
+Takaisin ohjelmaan:
+
+{{< highlight javascript >}}
+
+let addImg = (src) => {
+  let img = document.createElement("img")
+  imgElement.src = src
+  document.body.appendChild(imgElement)
+}
+
+loadImage('imges/cat1.jpg').then((img1 => {
+  addImg(img1.src)
+  loadImage('images/cat2.jpg').then(img2 => {
+    addImg(img2.src)
+    loadImage('imges/cat3.jpg').then(img3 => {
+      addImg(img3.src)
+    })
+  })
+})
+
+{{< /highlight >}}
+
+Kehitetään vielä eteenpäin komposioimalla:
+
+{{< highlight javascript >}}
+
+let addImg = (src) => {
+  let img = document.createElement("img")
+  imgElement.src = src
+  document.body.appendChild(imgElement)
+}
+
+Promise.all([
+  loadImage('images/cat1.jpg'),
+  loadImage('images/cat2.jpg'),
+  loadImage('images/cat3.jpg')
+  ]).then(imgs => {
+    images.forEach(img => addImg(img.src))
+  }).catch(error => {
+    // handle errors 
+  })
+
+{{< /highlight >}}
+
 ## Lähteet
 
 [^1]: https://www.youtube.com/watch?v=sjyJBL5fkp8
