@@ -13,7 +13,6 @@ body {
   background: #f8fffa;
 }
 
-
 $link-list: #599468;
 $lines: #2a6739;
 $text-color: #002509;
@@ -197,6 +196,9 @@ $header-color: #fd8c00;
         }
         .fact {
           color: $header-color;
+          a {
+            color: $header-color;
+          }
         }
       }
     }

@@ -1,0 +1,14 @@
+{{ define "main" }}
+<main id="muistiinpano">
+  {{ range $key, $value := .Site.Taxonomies.muistiinpanoja }}
+  <div class="card">
+    <h2><a href="/muistiinpano/{{ $key | urlize }}">{{ $key | humanize }}</a></h2>
+    <ul>
+      {{ range sort $value }}
+      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+</main>
+{{ end }}
