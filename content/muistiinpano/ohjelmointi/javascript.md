@@ -627,6 +627,75 @@ Promise.all([
 
 {{< /highlight >}}
 
+### Funktorit
+
+{{< highlight javascript >}}
+
+function plus1(value) {
+  return value + 1
+}
+
+console.log(plus1(3))
+console.log(plus1([3, 4]))
+
+{{< /highlight >}}
+
+Ensimmäinen `console.log` toimii, mutta jälkimmäinen ei. Se voidaan korjata muuttamalla kirjoittamalla funktio uudelleen.
+
+{{< highlight javascript >}}
+
+function plus1(value) {
+  if (Array.isArray(value)) {
+    let newArray = []
+    for (let i = 0; i < value.length; i++) {
+      newArray[i] = value[i] + 1
+    }
+    return newArray
+  }
+  return value + 1
+}
+
+console.log(plus1([3, 4]))
+
+{{< /highlight >}}
+
+Mutta jos nyt halutaan, että argumenttiksi voidaan antaa kirjaimia, esimerkiksi `plus1('ABC')`, olisi funktioon taas tehtävä muutos. Esimerkiksi taulun laskeminen olisi voitu ratkaista tällä tavalla:
+
+{{< highlight javascript >}}
+
+function plus1(value) {
+  return value + 1
+}
+
+[3,4].map(plus1)
+
+{{< /highlight >}}
+
+Tällä ei kuitenkaan ratkaista `plus1('ABC')` ongelmaa. Luodaan `stringFunctor`:
+
+{{< highlight javascript >}}
+
+function stringFunctor(value, fn) {
+  let chars = value.split("")
+  return chars.map(function(char) {
+    return String.fromCharCode(fn(char.charCodeAt(0)))
+  }).join("")
+}
+
+function plus1(value) {
+  return value + 1
+}
+
+function minus1(value) {
+  return value - 1
+}
+
+[3,4].map(plus1)  // returns [4, 5]
+stringFunctor('ABC', plus1)
+stringFunctor('XYZ', minus1)
+
+{{< /highlight >}}
+
 ## Lähteet
 
 [^1]: https://www.youtube.com/watch?v=sjyJBL5fkp8
