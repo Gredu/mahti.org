@@ -1,6 +1,7 @@
 baseURL = "https://mahti.org"
 languageCode = "fi-fi"
 title = "mahti.org"
+enableGitInfo = true
 
 [taxonomies]
   muistiinpano = "muistiinpanoja"
