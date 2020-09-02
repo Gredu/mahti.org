@@ -1,5 +1,5 @@
 ---
-title: "JavaScript"
+title: "javascript"
 author: "Greatman Lim"
 muistiinpanoja: ["Ohjelmointi"]
 ---
