@@ -2,8 +2,7 @@
 title: "Hallitusmuodot"
 author: "Greatman Lim"
 blogit: ["Kontulan kommuuni"]
-date: "2020-08-19"
-draft: true
+date: "2020-09-03"
 ---
 
 Kontulan Kommuunissa on nähty yhteensä kolme erilaista hallitusmuotoa. Hallituksen tarkoitus on pitää yllä yhteisiä sääntöjä. Tärkeintä on, että asukkaat saavat elää puhtaassa kommuunissa, nukkua yönsä rauhassa sekä tuntea kommuunin ylläpidossa reiluutta. Kolme kertaa hallitusmuoto on kokenut täydellisen reformoinnin.
@@ -16,7 +15,7 @@ Alkuun demokratia toimi hyvin, mutta se alkoi murentumaan mielenkiinnon vähenty
 
 Demokratia kuolee, jos kukaan ei äänestä, vaikuta tai osallistu päätösten tekoon. Kokousten vähäiseen osanottoon saattoi vaikuttaa myös se, että keskustelun aiheet olivat aina samat: kommuunin hygienia, siisteys ja siivousvuorot ja -tavat. Kommuunin ensimmäisen vuoden aikana siivous ei ollut ongelma, mutta alkuinnostuksen loputtua siisteystaso laski. Myöhemmin asukkaiden siisteys vaatimus alkoi polarisoitumaan, mikä vaikeutti sopivan siisteystason löytämistä. Osa halusi siistin asunnon ja toiset sietivät likaa vähän liiankin hyvin.
 
-Koska kokoukset olivat demokraattisia, voitiin tehdä kommuunin kannalta huonoja päätöksiä, vaikka yksilötasolla ne olisivatkin kivoja. Epäsiisteyttä kannattavat asukkaat alkoivat voittamaan äänestyksissä. Kommuunin perustamisvaiheessa puhuttiin siitä, että kommuuni pitäisi siivota kerran viikossa, mutta myöhemmissä kokouksissa päätettiin, että siivous kerran kahdessa viikossa riittää... Ja pian pääteettiin, että siivous tapahtuu vain kerran kuussa. Tämä paheni, koska [ääliöteoriaa](https://jaskanpauhantaa.blogspot.com/2020/06/aalioteoria.html) mukaillen siistit asukkaat muuttavat pois, ja heidän tilalleen todennäköisesti tulee epäsiistempiä asukkaita. Nämä asukkaat mielummin äänestävät kommuunia siihen suuntaan, joka tarkoittaa heille itselleen vähemmän työtä, eli siivousvuoroja pois.
+Koska kokoukset olivat demokraattisia, voitiin tehdä kommuunin kannalta huonoja päätöksiä, vaikka yksilötasolla ne olisivatkin kivoja. Epäsiisteyttä kannattavat asukkaat alkoivat voittamaan äänestyksissä. Kommuunin perustamisvaiheessa puhuttiin siitä, että kommuuni pitäisi siivota kerran viikossa, mutta myöhemmissä kokouksissa päätettiin, että siivous kerran kahdessa viikossa riittää... Ja pian pääteettiin, että siivous tapahtuu vain kerran kuussa. Tämä paheni, koska kun siistit asukkaat muuttavat pois, heidän tilalleen todennäköisesti tulee epäsiistempiä asukkaita. Epäsiistit asukkaat mielummin äänestävät kommuunia epäsiistimpään kuntoon.
 
 Kokouksissa asioista päättäminen on helppoa, mutta päätöksen toimeenpano ei ole itsestään selvä asia. Siivousten laiminlyönti oli yleistä joillakin asukkailla. Vaikka kokouksissa oli päätetty siivousvuoroista ja rutiinisiivousten hoitamisen ajallaan, ei se käytännössä aina toteutunut. Huomattiin, että sovitut siivousvuorot kaipasivat valvontaa, eli jotakuta muistuttamaan siivousvuorosta. Lisäksi siivouksen laatua piti myös valvoa. Tämä tehtävä koitui päävuokralaisen hoidettavaksi.
 
@@ -54,24 +53,13 @@ Asukkaat jotka eivät voineet ottaa vastuuta, määrättiin noudattamaan siivous
 
 Joitakin valvominen ahdisti, mutta jos siivousvuoroja ei valvottu, niitä ei myöskään toteutettu (kokeiltiin ilman valvontaa, ja se ei toiminut; siivous oli jo kaksi viikkoa myöhässä, joten oli pakko laittaa tälle stoppi). Haluttiin siivota silloin, kun fiilis on oikea, eli ei mitään siivousvuorolistaa. Tätä myös kokeiltiin, mutta silloin siivous tapahtui noin kerran kuussa. Pahimmillaan siivottiin kerran puolessatoista kuukaudessa.
 
-<!-- Sääntöjen kertaus: -->
-<!--  -->
-<!--   - asukkailla on vastuualueet -->
-<!--   - asukas luo säännöt alueellaan ja valvoo niiden noudattamista -->
-<!--   - valitukset vastuussa olevalle asukkaalle -->
-<!--   - sääntöjen kohtuuttomuudesta voi valittaa päävuokralaiselle -->
-<!--  -->
-<!-- Uudessa hallitusjärjestelmässä päävuokralainen ei vastaa enää kommuuniin hygieniasta. On käännyttävä aluevastaavien puoleen, jos siisteydestä haluaa keskustella. -->
-<!--  -->
-<!-- Kommuunissa on ollut tilanne, missä A kehottaa B:tä kapinoimaan lakkoilemalla, eli käytännössä lopettamaan kaikki siivousvelvotteet kommuunia kohtaan. Henkilö A on myöhemmin valittanut, että kommuunissa on likaista. -->
-
 Kommuunin kotityöt pitäisi jakaantua tasapuolisesti ja reilusti jokaisen asukkaan kesken. Päätettiin että ne, jotka eivät osallistuneet kommuunin siivoamiseen millään tavalla, maksavat kuussa 20 € joko kommuunipankille tai hänen vastuualueensa ottavalle. 20 € on erittäin pieni summa siihen nähden, miten paljon jotkut asukkaat ovat kommuunin eteen tehneet töitä. Jos tähänkään ei suostuta, saa lähteä kommuunista.
 
 ## Kontulan Kommuuni toimii
 
 Aina kun uusi hallitusmuoto on luotu, se on toiminut alkuun melko hyvin. Demokratia toimi hyvin noin kaksi vuotta, diktatuurinen hallitus puoli vuotta. Feodaalinen hallitusmuoto on toiminut hyvin ainakin neljä vuotta. 
 
-Hallitusmuotojen suurimmat haasteet ovat olleet uudet asukkaat. Usein he ovat vaatineet asioiden muuttamista oman mielensä mukaiseksi. Tietenkin hallitusmuodon on palveltava asukkaitaan, mutta sen on myös otettava huomioon yhteisö. Yksilön edut ovat usein ristiriidassa yhteisön etujen kanssa. On yksilön etu, että ei tarvitse siivota, tiskata tai voi meluta yön yli, mutta tämä ei ole kommuunille hyvä.
+Uudet asukkaat tuovat usein haasteita vallitsevalle hallitusmuodolle. Välillä he ovat vaatineet asioiden muuttamista, vaikka he alunperin suostuivat yhteisiin sääntöihin. Tietenkin hallitusmuodon on palveltava asukkaitaan, mutta sen on myös otettava huomioon yhteisö. Yksilön edut voivat olla ristiriidassa yhteisön etujen kanssa. On yksilön etu, että ei tarvitse siivota, tiskata tai voi meluta yön yli, mutta tämä ei ole kommuunille hyvä.
 
 Kirjoituksesta saattaa tulla vaikutelma, että kommuunissa eläminen olisi raskasta ja että se olisi täynnä sääntöjä, mutta kommuuni on isossa mittakaavassa toiminut kuitenkin hyvin. Tässä kirjoituksessa on käsitelty niitä käännekohtia, jotka aiheuttivat hallitusmuodon vaihtumisen. Yleensäkin murroskohdissa on konflikteja, ja siksi kertomus tuntuu olevan täynnä konflikteja. Mukaan mahtuu kuitenkin monta rauhallista vuotta.
 
