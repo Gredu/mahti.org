@@ -6,13 +6,13 @@ date: "2020-08-24"
 draft: true
 ---
 
-Kontulan nettisivuihin on jouduttu kirjoittamaan paljon ylimääräisiä itsestäänselviä sääntöjä, minkä takia nettisivut ovat paisuneet. Sääntöjä onneksi poistetaan sitä mukaan, kun sen todetaan olevan oikeasti jokaiselle itsestäänselvä.
+Kontulan nettisivuihin on jouduttu kirjoittamaan paljon ylimääräisiä itsestäänselviä sääntöjä, minkä takia nettisivut ovat paisuneet. Sääntöjä onneksi poistetaan sitä mukaan, kun sen todetaan olevan oikeasti jokaiselle itsestäänselvä. Joskus on onneksi riittänyt, että asiasta kertoo vian kerran, jolloin sitä ei ole tarvinnut kirjoittaa sääntöihin. Välillä jotkut omituisuudet korjaantuvat itsestään muiden asukkaiden esimerkkien voimin. Esimerkiksi yksi asukas on laittanut astiat kuivauskaappiin oikein päin.
 
 **Älä sammuta takkaa vedellä.** Takan rakenne ei ole suunniteltu veden kestäväksi. Tuhka myös muuttuu velliksi, joka estää veden haihtumisen. Märkä tuhka ei ole myöskään kovin esteettisen näköinen.
 
 **Valoja ei saa jättää auki valaisemaan kotiinpaluuta.** Joidenkin mielestä on mukavaa, että valot ovat auki valmiiksi, kun tullan kotiin. Valot saattoivat olla kymmenkin tuntia auki turhaan.
 
-**Pakkausmuovi on muovia, eikä sitä saa heittää biojätteeseen.** Pakkausmateriaalia on laitettu biojätteeseen yllättävän usein. Joitain asukkaita on ollut erittäin vaikea opettaa bioon, joten heitä on kehoitettu käyttämään ainoastaan sekajäte roskista.
+**Pakkausmuovi on muovia, eikä sitä saa heittää biojätteeseen.** Pakkausmateriaalia on laitettu biojätteeseen yllättävän usein. Joitain asukkaita on ollut erittäin vaikea opettaa mitä bioon kuuluu laittaa, joten heitä on kehoitettu käyttämään ainoastaan sekajätteille tarkoitettua roskista.
 
 **Yöllä ei saa laulaa, räpätä tai harjoitella instrumenttien soittamista.** Kommuunissa on joudutta sanomaan kello 02:00 artisteille, että antaa muille rauhan nukkua.
 
@@ -20,7 +20,7 @@ Kontulan nettisivuihin on jouduttu kirjoittamaan paljon ylimääräisiä itsest�
 
 **Vessanpönttö on aina vedettävä, vaikka siellä ei olisikaan mitään kiinteää.** Näemmä joku asukas on ollut tullut perheestä, jossa vettä pyritään säästämään kaikin keinoin.
 
-**Tiskit on pestävä pesuaineella, vesi ei riitä.** Tiskit eivät välttämättä ole puhtaihta, vaikka mitään näkyvää likaa ei näy. Jotkut asukkaat ovat päättäneet, että hinkkaaminen pelkästään vedellä riittää.
+**Tiskit on pestävä pesuaineella, vesi ei riitä.** Tiskit eivät välttämättä ole puhtaihta, vaikka näkyvää likaa ei näy. Jotkut asukkaat ovat päättäneet, että hinkkaaminen pelkästään vedellä riittää.
 
 **Kädet on pestävä vessakäynnin jälkeen**. Tämä huomattiin korona pandemian aikana, kun ruvettiin valvomaan tarkemmin asukkaiden hygieniaa. Yksi asukkaista ei pessyt koskaan käsiään vessakäynnin jälkeen.
 
