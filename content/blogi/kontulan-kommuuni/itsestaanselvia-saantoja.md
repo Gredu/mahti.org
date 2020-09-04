@@ -10,13 +10,13 @@ Kontulan nettisivuille on jouduttu kirjoittamaan paljon ylimääräisiä itsest�
 
 **Älä sammuta takkaa vedellä.** Takan rakenne ei ole suunniteltu veden kestäväksi. Tuhka myös muuttuu velliksi, joka estää veden haihtumisen. Märkä tuhka ei ole myöskään kovin esteettisen näköinen.
 
-**Valoja ei saa jättää auki valaisemaan kotiinpaluuta.** Joidenkin mielestä on mukavaa, että valot ovat auki valmiiksi, kun tulaan kotiin. Valot saattoivat olla kymmenenkin tuntia auki turhaan.
+**Valoja ei saa jättää auki valaisemaan kotiinpaluuta.** Joidenkin mielestä on mukavaa tulla kotiin niin, että valot ovat valmiiksi auki. Valot saattoivat olla kymmenenkin tuntia auki turhaan.
 
-**Pakkausmuovi on muovia, eikä sitä saa heittää biojätteeseen.** Pakkausmateriaalia on laitettu biojätteeseen yllättävän usein. Joitain asukkaita on ollut erittäin vaikea opettaa, mitä bioon kuuluu laittaa, joten heitä on kehoitettu käyttämään ainoastaan sekajätteille tarkoitettua roskista.
+**Pakkausmuovi on muovia, eikä sitä saa heittää biojätteeseen.** Pakkausmateriaalia on laitettu biojätteeseen yllättävän usein. Joitain asukkaita on ollut erittäin vaikea opettaa, mitä bioon kuuluu laittaa, joten heitä on kehotettu käyttämään ainoastaan sekajätteille tarkoitettua roskista.
 
 **Yöllä ei saa laulaa, räpätä tai harjoitella instrumenttien soittamista.** Kommuunissa on jouduttu sanomaan kello 02:00 artisteille, että antaa muille rauhan nukkua.
 
-**Jääkaappiin ei saa laittaa mitään kiehuvaa, höyryävää tai kuumaa.** Huomattiin tilanne vasta, kun erään asukkaan voi oli sulanut juoksevaksi. Aluksi luultiin, että joku oli jättänyt jääkapin oven vahingossa auki, mutta osoittautuikin, että eräs oli jo jonkin aikaa laittanut kuumat keitoksensa jääkaappiin viilentymään nopeammin. Nyt hän jäi kiinni, koska sattumoisin ylälokerossa oli voita.
+**Jääkaappiin ei saa laittaa mitään kiehuvaa, höyryävää tai kuumaa.** Huomattiin tilanne vasta, kun erään asukkaan voi oli sulanut juoksevaksi. Aluksi luultiin, että joku oli jättänyt jääkaapin oven vahingossa auki, mutta osoittautuikin, että eräs oli jo jonkin aikaa laittanut kuumat keitoksensa jääkaappiin viilentymään nopeammin. Nyt hän jäi kiinni, koska sattumoisin ylälokerossa oli voita.
 
 **Vessanpönttö on aina vedettävä, vaikka siellä ei olisikaan mitään kiinteää.** Näemmä joku asukas on tullut perheestä, jossa vettä pyritään säästämään kaikin keinoin.
 
