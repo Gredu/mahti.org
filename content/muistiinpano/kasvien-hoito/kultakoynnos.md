@@ -8,15 +8,13 @@ Valon tarve: puolivarjo.
 
 Multa: viherkasvimulta
 
-Kastelu: tarvitsee runsaasti vettä, mutta mullan kannattaa antaa kuivahtaa kastelujen välillä.
+Kastelu: tarvitsee paljon vettä, mutta pintamullan on hyvä antaa kuivahtaa kastelujen välillä.
 
 Lannoitusaika: kevät
 
-Sumuttelu: Pitää siitä
+Sumuttelu: pitää siitä
 
-Siementen istuttaminen: otollinen aika vuodesta on tammi-helmikuu. Multaruukkuun istutetaan 2-3 siementä, jotka alkavat orastamaan jo kahden viikon kuluttua istuttamisesta.
+Kasvin lisääminen: Kasvia voi lisätä varsi- tai latvapistokkaista, ja paras aika vuodesta sille on varhainen kevät. Noin 10-15cm pitkä pistokas laitetaan joko vesilasiin tai suoraan kylvö- tai taimimultaan juurtumaan. 
 
-Kasvin lisääminen: kasvia voi lisätä varsi- tai latvapistokkaista. Varahinen kevät on parasta aikaa kasvattaa pistokmkaita. Laitetaan 10-15cm pistokas joko veteen itämään tai suoraan taimimultaan 
-
-Ongelmat: Kirvat alkavat helposti vaivaamaan chiliä, mutta niihin auttaa kasvin sumuttelu saippualiuoksella.
+Ongelmat: Kasvi on lievästi myrkyllinen.
 
