@@ -5,20 +5,19 @@ muistiinpanoja: ["Kasvien hoito"]
 draft: true
 ---
 
-Valon tarve: Puolivarjo. Menestyy myös normaalia varjoisemmallakin paikalla.
+Valon tarve: Aurinkoinen
 
 Multa: Kukkamulta
 
-Kastelu: Säännöllinen kastelu. Vesi ei saa jäädä juurikkoon seisomaan.
+Kastelu: Säännöllinen kastelu.
 
 Sumuttelu: Pitää siitä.
 
 Lannoitusaika: Kerran viikossa kasvukaudella
 
-Kasvin lisääminen: Kasvia voi lisätä pistokkaista, jotka tarvitsevat juurtuakseen vähintään +20 asteen lämpötilan. Pistokkaisiin tulee jättää 3-4 lehteä ja alimmat lehdet tulee leikata pois. Ne istutetaan ilmavasti kylvömultaan.
+Kasvin istuttaminen: Mangon siemenen voi laittaa itämään huoneenlämpöiseen veteen tai kosteaan talouspaperiin pussiin, jonka jälkeen se siirretään ilmavaan kylvömultaan. 
 
-Kukinta ja Hedelmät: Vähintään kymmenen vuoden ikäinen muratti tuottaa syksyisin kellanvihreät kukinnot ja mustansiniset marjat, jotka ovat myrkyllisiä.
+Kukinta ja Hedelmät: Tuottaa 6-10 vuoden ikäisenä kellertäviä kukanryppäitä.
 
-Lisää: Kasvi kestää hyvin viileää, kohtalaista tuulta ja sadetta. Veden tarpeen ja kuivuuden huomaa käpertyvistä ja varisevista lehdistä. Kasvin voi pistää keäsisin ulos.
+Lisää: Kasvin ensimmäiset lehdet ovat vähän ruskehtavia ja kulahtaneen näköisiä, mutta kasvaessa ne muuttuuvat vihreiksi. 
 
-Ongelmat: Kasvi on altis kirvoille. Niihin auttaa kasvin sumuttelu viikottain.
