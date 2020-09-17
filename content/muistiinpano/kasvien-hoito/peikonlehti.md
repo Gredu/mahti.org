@@ -5,8 +5,18 @@ muistiinpanoja: ["Kasvien hoito"]
 draft: true
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Valon tarve: Puolivarjo
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Multa: Viherkasvimulta, kukkamulta
 
-Peikonlehti, kasvien hoito.
+Kastelu: Säännöllinen kastelu. Pintamullan kannattaa antaa kuivahtaa kastelujen välillä.
+
+Sumuttelu: Pitää siitä.
+
+Lannoitusaika: Kerran viikossa huhtikuusta syyskuuhun.
+
+Kasvin lisääminen: Kasvia voi lisätä varsi- ja latvapistokkaista, jotka voidaan laittaa suoraan multaan juurtumaan. 
+
+Kukinta ja Hedelmät: Kasvi kukkii erittäin harvoin. Kukka on tähkämäinen ja kellertävä, joka vuoden kypsyessään muodostaa syömäkelpoisen hedelmän.
+
+Lisää: Vanhemmat kasvit kasvattavat ilmajuuria, joita ei saa leikata pois. Ne pitää ohjata multaan kasvamaan ikäänkuin normaaleina juurina.
