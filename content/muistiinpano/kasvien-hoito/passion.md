@@ -5,8 +5,18 @@ muistiinpanoja: ["Kasvien hoito"]
 draft: true
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Valon tarve: Aurinkoinen
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Multa: Kukkamulta
 
-Passion, kasvien hoito.
+Kastelu: Säännöllinen kastelu, multaa ei saa päästää rutikuivaksi. Kesäisin tarvitsee paljon vettä, jopa muutaman päivän välein. Talvisin kerran viikossa riittää. 
+
+Sumuttelu: Pitää siitä.
+
+Lannoitusaika: Kerran viikossa kasvukaudella
+
+Siementen istuttaminen: Kasvin siemenet tulee puhdistaa hyvin hedelmälihasta, sillä muuten siemenillä on vaara homehtua. Siemenet voidaan laittaa kosteaan talouspaperiin pussiin lämpimään ja aurinkoideen paikkaan itämään. Kun siemenet ovat itäneet, ne siirretään kylvömultaan.
+
+Kukinta ja Hedelmät: Passionin kukat ovat violetinvärisiä, ja tuottaakseen niitä kasvi tarvitsee +15- +18 asteen lämpötilan. Hedelmiä kasvi ei juurikaan tuota. 
+
+Lisää: Kesäisin kasvin voi viedä ulos.
