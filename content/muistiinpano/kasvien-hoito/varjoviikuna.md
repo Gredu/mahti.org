@@ -5,8 +5,16 @@ muistiinpanoja: ["Kasvien hoito"]
 draft: true
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Valon tarve: Puolivarjo tai aurinkoinen, mutta ei suora auringonvalo.
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Multa: Viherkasvimulta
 
-Varjoviikuna, kasvien hoito.
+Kastelu: Kastellaan kerralla runsaasti ja annetaan mullan kuivahtaa kastelujen välillä. Talviaikoina mullan voi pitää melko kuivana.
+
+Sumuttelu: Pitää siitä
+
+Lannoitusaika: Parin viikon välein maaliskuusta syyskuuhun.
+
+Lisää: Mullan vaihto on hyvä tehdä kesäaikana ja vain kun kasvin juuret ovat täyttäneet ruukun.
+
+Ongelmat: Vähäisessä valossa, varsinkin talviaikaan lehdet varisevat helposti.
