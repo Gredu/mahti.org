@@ -16,6 +16,91 @@ Lähes aina kannattaa käyttää joko `let` tai `const` muuttujia nimittäessä.
 
 Jos seuraava rivi alkaa sululla `(`, on ylempään riviin laitettava puolipiste. Muuten javascript luulee, että nämä kaksi ovat samaa riviä.
 
+## Debuggaus [^4]
+
+`console.log()` voi ottaa parametrikseen olion tai listan. Selaimet myös tukevat tyylejä.
+
+{{< highlight javascript >}}
+
+const foo = { name: 'tom', age: 30, nervous: false };
+const bar = { name: 'dick', age: 40, nervous: false };
+const baz = { name: 'harry', age: 50, nervous: true };
+
+console.log('%c My Friends', 'color: orange; font-weight: bold;')
+console.log({ foo, bar, baz })
+console.log([ foo, bar, baz ])  // onnistuu vain jos olioilla on samat kentät
+
+{{< /highlight >}}
+
+## Suorituskykyarviointi
+
+{{< highlight javascript >}}
+
+console.time('foo')
+
+let i = 0
+while (i < 100000) { i++ }
+
+console.timeEnd('foo')
+
+{{< /highlight >}}
+
+## Funktion jäljittäminen
+
+{{< highlight javascript >}}
+
+const deleteMe = () => console.trace('bye bye database') 
+deleteMe()
+deleteMe()
+
+{{< /highlight >}}
+
+## Destruktuointi
+
+{{< highlight javascript >}}
+
+const turtle = {
+  name: 'Bob',
+  legs: 4,
+  shell: true,
+  type: 'amphibious',
+  meal: 10,
+  diet: 'berries'
+}
+
+{{< /highlight >}}
+
+Huono tapa:
+
+{{< highlight javascript >}}
+
+function feed(animal) {
+  return `Feed ${animal.name} ${animal.meal} kilos of ${animal.diet}.`
+}
+
+{{< /highlight >}}
+
+Hyvä tapa:
+
+{{< highlight javascript >}}
+
+function feed({ name, meal, diet }) {
+  return `Feed ${name} ${meal} kilos of ${diet}.`
+}
+
+{{< /highlight >}}
+
+Toinen hyvä tapa:
+
+{{< highlight javascript >}}
+
+function feed(animal) {
+  const { name, meal, diet } = animal
+  return `Feed ${name} ${meal} kilos of ${diet}.`
+}
+
+{{< /highlight >}}
+
 ## Nuolifunktiot [^2]
 
 Nuolifunktio ei ole pelkästään lyhennös avainsanalle `function`. Nuolifunktioissa `this` ei toimi samalla tavalla kuin perinteisessä funktiossa.
@@ -701,3 +786,4 @@ stringFunctor('XYZ', minus1)
 [^1]: https://www.youtube.com/watch?v=sjyJBL5fkp8
 [^2]: https://www.youtube.com/watch?v=6sQDTgOqh-I 
 [^3]: https://www.youtube.com/watch?v=BMUiFMZr7vk&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84&index=1
+[^4]: https://www.youtube.com/watch?v=Mus_vwhTCq0
