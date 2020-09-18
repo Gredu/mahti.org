@@ -5,8 +5,20 @@ muistiinpanoja: ["Kasvien hoito"]
 draft: true
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Valon tarve: Puolivarjo tai aurinkoinen, mutta ei suora auringonvalo.
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Multa: Viherkasvimulta
 
-Viirivehka, kasvien hoito.
+Kastelu: Säännöllinen kastelu kerran viikossa. Mullan voi vähän antaa kuivahtaa kastelujen välillä.
+
+Sumuttelu: Pitää siitä.
+
+Lannoitusaika: Joka toinen viikko helmikuusta syyskuuhun.
+
+Kasvin lisääminen: Kasvia voi lisätä jakamalla isomman viirivehkan kahtia ja istuttamalla molemmat puolet omiin ruukkuihinsa. 
+
+Kukinta ja Hedelmät: Kasvi kukkii yleensä keväällä, mutta kasvuolosuhteista riippuen saattaa kukkia minä vuodenaikana tahansa. Kukka on kellertävä puikula, jota ympäröi valkea suojuslehti.
+
+Lisää: Puhdistaa ilmaa tehokkasti.
+
+Ongelmat: Lievästi myrkyllinen
