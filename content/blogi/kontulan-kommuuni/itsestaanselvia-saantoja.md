@@ -2,15 +2,14 @@
 title: "Itsestäänselviä sääntöjä"
 author: "Greatman Lim"
 blogit: ["Kontulan kommuuni"]
-date: "2020-08-24"
-draft: true
+date: "2020-09-28"
 ---
 
-Kontulan nettisivuille on jouduttu kirjoittamaan paljon ylimääräisiä itsestäänselviä sääntöjä, jonka vuoksi nettisivut ovat paisuneet. Onneksi niitä on kuitenkin poistettu sitä mukaan, kun niitä ollaan osattu oikeasti noudattaa. Joskus on onneksi riittänyt, että säännöstä mainitaan vain kerran, jolloin sitä ei ole tarvinnut kirjoittaa sääntöihin. Välillä jotkut omituisuudet korjaantuvat itsestään muiden asukkaiden esimerkkien voimin.
+Kontulan nettisivuille on jouduttu kirjoittamaan paljon ylimääräisiä itsestäänselviä sääntöjä, jonka vuoksi nettisivut ovat paisuneet. Onneksi niitä on kuitenkin poistettu sitä mukaan, kun niitä ollaan osattu noudattaa. Joskus on onneksi riittänyt, että säännöstä mainitaan vain kerran, jolloin sitä ei ole tarvinnut kirjoittaa sääntöihin. Välillä jotkut omituisuudet korjaantuvat itsestään muiden asukkaiden esimerkkien voimin.
 
-**Älä sammuta takkaa vedellä.** Takan rakenne ei ole suunniteltu veden kestäväksi. Tuhka myös muuttuu velliksi, joka estää veden haihtumisen. Märkä tuhka ei ole myöskään kovin esteettisen näköinen.
+**Älä sammuta takkaa vedellä.** Takan rakenne ei ole suunniteltu veden kestäväksi. Tuhka myös muuttuu velliksi, josta vesi haihtuu huonosti. Märkä tuhka ei ole myöskään kovin esteettisen näköinen.
 
-**Valoja ei saa jättää auki valaisemaan kotiinpaluuta.** Joidenkin mielestä on mukavaa tulla kotiin niin, että valot ovat valmiiksi auki. Valot saattoivat olla kymmenenkin tuntia auki turhaan.
+**Valoja ei saa jättää auki valaisemaan kotiinpaluuta.** Joidenkin mielestä on mukavaa tulla kotiin siten, että valot ovat valmiiksi auki. Valot saattoivat olla kymmenenkin tuntia auki turhaan.
 
 **Pakkausmuovi on muovia, eikä sitä saa heittää biojätteeseen.** Pakkausmateriaalia on laitettu biojätteeseen yllättävän usein. Joitain asukkaita on ollut erittäin vaikea opettaa, mitä bioon kuuluu laittaa, joten heitä on kehotettu käyttämään ainoastaan sekajätteille tarkoitettua roskista.
 
