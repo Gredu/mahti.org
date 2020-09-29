@@ -6,9 +6,9 @@ date: "2020-09-03"
 draft: true
 ---
 
-Vastuualueisiin perustuvista säännöstiä on kirjoitettu jo vähän [hallitusmuodot]({{< ref "/blogi/kontulan-kommuuni/hallitusmuodot.md">}}) blogissa.
+Vastuualueisiin perustuvista säännöstiä on kirjoitettu jo vähän [hallitusmuodot]({{< ref "/blogi/kontulan-kommuuni/hallitusmuodot.md">}}) blogissa. Kerrotaan vastuuaelueista kuitenkin vähän tarkemmin, koska se on tämän hetkinen "hallitusmuoto".
 
-Sääntöjen kertaus:
+Kerrataan sääntöjä:
 
   - asukkailla on vastuualueet
   - asukas luo säännöt alueellaan ja valvoo niiden noudattamista
