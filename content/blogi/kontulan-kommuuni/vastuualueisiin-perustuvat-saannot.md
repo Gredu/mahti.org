@@ -1,5 +1,5 @@
 ---
-title: "Vastuualueisiin perustuvat saannot"
+title: "Vastuualueisiin perustuvat säännot"
 author: "Greatman Lim"
 blogit: ["Kontulan kommuuni"]
 date: "2020-09-03"
