@@ -131,7 +131,7 @@ $header-color: #fd8c00;
       &:hover > h1 {
         border-left: solid 8px $lines;
         padding-left: 8px;
-        transition: .5s;
+        transition: .3s ease-out;
       }
     }
     a {
@@ -146,7 +146,7 @@ $header-color: #fd8c00;
     h1 {
       margin-bottom: 0;
       padding-bottom: 0;
-      transition: .5s;
+      transition: .2s;
       border-left: solid 0px $lines;
     }
     section.footnotes {
