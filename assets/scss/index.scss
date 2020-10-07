@@ -232,3 +232,8 @@ $header-color: #fd8c00;
     }
   }
 }
+
+.resize-animation-stopper * {
+  animation: none !important;
+  transition: none !important;
+}
