@@ -8,18 +8,29 @@
     <title>Mahti.org</title>
   </head>
   <body>
-    <div class="container">
-      <nav class="sidebar">
+    <nav>
+      <div class="nav-left"></div>
+      <div class="nav-center">
         <ul>
-          <li><a href="/">blogisyöte</a></li>
-          <li><a href="/blogit">blogit</a></li>
-          <li><a href="/muistiinpanoja">muistiinpanoja</a></li>
+          <a href="/"><li><span>SVG</span><span>blogisyöte</span></li></a>
+          <a href="/blogit"><li><span>SVG</span><span>blogit</span></li></a>
+          <a href="/muistiinpanoja"><li><span>SVG</span><span>muistiinpanoja</span></li></a>
         </ul>
-        {{ if eq .Type "muistiinpano" }}
-        <h3>jäsennys</h3>
-        {{ .TableOfContents }}
-        {{ end }}
-      </nav>
+      </div>
+      <div class="nav-right"></div>
+    </nav>
+    <div class="container">
+      <!-- <nav class="sidebar"> -->
+      <!--   <ul> -->
+      <!--     <li><a href="/">blogisyöte</a></li> -->
+      <!--     <li><a href="/blogit">blogit</a></li> -->
+      <!--     <li><a href="/muistiinpanoja">muistiinpanoja</a></li> -->
+      <!--   </ul> -->
+      <!--   {{ if eq .Type "muistiinpano" }} -->
+      <!--   <h3>jäsennys</h3> -->
+      <!--   {{ .TableOfContents }} -->
+      <!--   {{ end }} -->
+      <!-- </nav> -->
       {{ block "main" . }}{{ end }}
     </div>
 

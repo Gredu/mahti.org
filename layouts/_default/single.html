@@ -1,69 +1,69 @@
 {{ define "main" }}
 <main>
 
-<div class="info">
-  <span class="item">
-      <svg width="32px" height="32px" viewBox="0 0 16 16" class="bi bi-person-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-        <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
-        <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-        <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
-      </svg>
-    <div class="description">
-      kirjoittaja
-    </div>
-    <div class="fact">
-      {{ .Params.author }}
-    </div>
-  </span>
-
-  {{ if eq .Type "muistiinpano" }}
-  <span class="item">
-      <svg width="32px" height="32px" viewBox="0 0 16 16" class="bi bi-clock-history" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" d="M8.515 1.019A7 7 0 0 0 8 1V0a8 8 0 0 1 .589.022l-.074.997zm2.004.45a7.003 7.003 0 0 0-.985-.299l.219-.976c.383.086.76.2 1.126.342l-.36.933zm1.37.71a7.01 7.01 0 0 0-.439-.27l.493-.87a8.025 8.025 0 0 1 .979.654l-.615.789a6.996 6.996 0 0 0-.418-.302zm1.834 1.79a6.99 6.99 0 0 0-.653-.796l.724-.69c.27.285.52.59.747.91l-.818.576zm.744 1.352a7.08 7.08 0 0 0-.214-.468l.893-.45a7.976 7.976 0 0 1 .45 1.088l-.95.313a7.023 7.023 0 0 0-.179-.483zm.53 2.507a6.991 6.991 0 0 0-.1-1.025l.985-.17c.067.386.106.778.116 1.17l-1 .025zm-.131 1.538c.033-.17.06-.339.081-.51l.993.123a7.957 7.957 0 0 1-.23 1.155l-.964-.267c.046-.165.086-.332.12-.501zm-.952 2.379c.184-.29.346-.594.486-.908l.914.405c-.16.36-.345.706-.555 1.038l-.845-.535zm-.964 1.205c.122-.122.239-.248.35-.378l.758.653a8.073 8.073 0 0 1-.401.432l-.707-.707z"/>
-        <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 4.95 11.95l.707.707A8.001 8.001 0 1 1 8 0v1z"/>
-        <path fill-rule="evenodd" d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z"/>
-      </svg>
-    <div class="description">
-      viimeksi päivitetty
-    </div>
-    <div class="fact">
-      {{ .Lastmod.Format "02.01.2006 15:04" }}
-    </div>
-  </span>
-  {{ end }}
-
-  {{ if eq .Type "blogi" }}
-  <span class="item">
-    <svg width="32px" height="32px" viewBox="0 0 16 16" class="bi bi-clock-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
-    </svg>
-    <div class="description">
-      lukuaika
-    </div>
-    <div class="fact">
-      {{ if lt .ReadingTime 2 }}
-      alle minuutti
-      {{ else }}
-      {{ .ReadingTime }} minuuttia
-      {{ end }}
-    </div>
-  </span>
-  {{ end }}
-
-  {{ with .PublishDate }}
-  <span class="item">
-    <svg width="32px" height="32px" viewBox="0 0 16 16" class="bi bi-calendar-event-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM0 5h16v9a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5zm12.5 2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z"/>
-    </svg>
-    <div class="description">
-      julkaistu
-    </div>
-    <div class="fact">
-      {{ .Format "02.01.2006" }}
-    </div>
-  </span>
-  {{ end }}
-</div>
+<!-- <div class="info"> -->
+<!--   <span class="item"> -->
+<!--       <svg width="32px" height="32px" viewBox="0 0 16 16" class="bi bi&#45;person&#45;circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg"> -->
+<!--         <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s&#45;4.757 1.225&#45;5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468&#45;2.63z"/> -->
+<!--         <path fill&#45;rule="evenodd" d="M8 9a3 3 0 1 0 0&#45;6 3 3 0 0 0 0 6z"/> -->
+<!--         <path fill&#45;rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/> -->
+<!--       </svg> -->
+<!--     <div class="description"> -->
+<!--       kirjoittaja -->
+<!--     </div> -->
+<!--     <div class="fact"> -->
+<!--       {{ .Params.author }} -->
+<!--     </div> -->
+<!--   </span> -->
+<!--  -->
+<!--   {{ if eq .Type "muistiinpano" }} -->
+<!--   <span class="item"> -->
+<!--       <svg width="32px" height="32px" viewBox="0 0 16 16" class="bi bi&#45;clock&#45;history" fill="currentColor" xmlns="http://www.w3.org/2000/svg"> -->
+<!--         <path fill&#45;rule="evenodd" d="M8.515 1.019A7 7 0 0 0 8 1V0a8 8 0 0 1 .589.022l&#45;.074.997zm2.004.45a7.003 7.003 0 0 0&#45;.985&#45;.299l.219&#45;.976c.383.086.76.2 1.126.342l&#45;.36.933zm1.37.71a7.01 7.01 0 0 0&#45;.439&#45;.27l.493&#45;.87a8.025 8.025 0 0 1 .979.654l&#45;.615.789a6.996 6.996 0 0 0&#45;.418&#45;.302zm1.834 1.79a6.99 6.99 0 0 0&#45;.653&#45;.796l.724&#45;.69c.27.285.52.59.747.91l&#45;.818.576zm.744 1.352a7.08 7.08 0 0 0&#45;.214&#45;.468l.893&#45;.45a7.976 7.976 0 0 1 .45 1.088l&#45;.95.313a7.023 7.023 0 0 0&#45;.179&#45;.483zm.53 2.507a6.991 6.991 0 0 0&#45;.1&#45;1.025l.985&#45;.17c.067.386.106.778.116 1.17l&#45;1 .025zm&#45;.131 1.538c.033&#45;.17.06&#45;.339.081&#45;.51l.993.123a7.957 7.957 0 0 1&#45;.23 1.155l&#45;.964&#45;.267c.046&#45;.165.086&#45;.332.12&#45;.501zm&#45;.952 2.379c.184&#45;.29.346&#45;.594.486&#45;.908l.914.405c&#45;.16.36&#45;.345.706&#45;.555 1.038l&#45;.845&#45;.535zm&#45;.964 1.205c.122&#45;.122.239&#45;.248.35&#45;.378l.758.653a8.073 8.073 0 0 1&#45;.401.432l&#45;.707&#45;.707z"/> -->
+<!--         <path fill&#45;rule="evenodd" d="M8 1a7 7 0 1 0 4.95 11.95l.707.707A8.001 8.001 0 1 1 8 0v1z"/> -->
+<!--         <path fill&#45;rule="evenodd" d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1&#45;.496.868l&#45;3.5&#45;2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5&#45;.5z"/> -->
+<!--       </svg> -->
+<!--     <div class="description"> -->
+<!--       viimeksi päivitetty -->
+<!--     </div> -->
+<!--     <div class="fact"> -->
+<!--       {{ .Lastmod.Format "02.01.2006 15:04" }} -->
+<!--     </div> -->
+<!--   </span> -->
+<!--   {{ end }} -->
+<!--  -->
+<!--   {{ if eq .Type "blogi" }} -->
+<!--   <span class="item"> -->
+<!--     <svg width="32px" height="32px" viewBox="0 0 16 16" class="bi bi&#45;clock&#45;fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"> -->
+<!--       <path fill&#45;rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0&#45;1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496&#45;.868L8 8.71V3.5z"/> -->
+<!--     </svg> -->
+<!--     <div class="description"> -->
+<!--       lukuaika -->
+<!--     </div> -->
+<!--     <div class="fact"> -->
+<!--       {{ if lt .ReadingTime 2 }} -->
+<!--       alle minuutti -->
+<!--       {{ else }} -->
+<!--       {{ .ReadingTime }} minuuttia -->
+<!--       {{ end }} -->
+<!--     </div> -->
+<!--   </span> -->
+<!--   {{ end }} -->
+<!--  -->
+<!--   {{ with .PublishDate }} -->
+<!--   <span class="item"> -->
+<!--     <svg width="32px" height="32px" viewBox="0 0 16 16" class="bi bi&#45;calendar&#45;event&#45;fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"> -->
+<!--       <path fill&#45;rule="evenodd" d="M4 .5a.5.5 0 0 0&#45;1 0V1H2a2 2 0 0 0&#45;2 2v1h16V3a2 2 0 0 0&#45;2&#45;2h&#45;1V.5a.5.5 0 0 0&#45;1 0V1H4V.5zM0 5h16v9a2 2 0 0 1&#45;2 2H2a2 2 0 0 1&#45;2&#45;2V5zm12.5 2a.5.5 0 0 0&#45;.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5&#45;.5v&#45;1a.5.5 0 0 0&#45;.5&#45;.5h&#45;1z"/> -->
+<!--     </svg> -->
+<!--     <div class="description"> -->
+<!--       julkaistu -->
+<!--     </div> -->
+<!--     <div class="fact"> -->
+<!--       {{ .Format "02.01.2006" }} -->
+<!--     </div> -->
+<!--   </span> -->
+<!--   {{ end }} -->
+<!-- </div> -->
 
 <article>
   {{ .Data.Terms }}
@@ -71,36 +71,36 @@
   {{ .Content }}
 </article>
 
-{{ if eq .Type "blogi" }}
-<div class="info">
-{{ with .NextInSection }} 
-  <span class="item">
-    <svg width="32px" height="32px" viewBox="0 0 16 16" class="bi bi-arrow-left-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5.5a.5.5 0 0 0 0-1H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5z"/>
-    </svg>
-    <div class="description">
-      seuraava sivu
-    </div>
-    <div class="fact">
-      <a  href="{{ .Permalink }}">{{ .Title }}</a>
-    </div>
-  </span>
-  {{ end }}
-  {{ with .PrevInSection }} 
-  <span class="item">
-    <svg width="32px" height="32px" viewBox="0 0 16 16" class="bi bi-arrow-right-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-11.5.5a.5.5 0 0 1 0-1h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5z"/>
-    </svg>
-    <div class="description">
-      edellinen sivu
-    </div>
-    <div class="fact">
-      <a  href="{{ .Permalink }}">{{ .Title }}</a>
-    </div>
-  </span>
-  {{ end }}
-</div>
-{{ end }}
+<!-- {{ if eq .Type "blogi" }} -->
+<!-- <div class="info"> -->
+<!-- {{ with .NextInSection }}  -->
+<!--   <span class="item"> -->
+<!--     <svg width="32px" height="32px" viewBox="0 0 16 16" class="bi bi&#45;arrow&#45;left&#45;circle&#45;fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"> -->
+<!--       <path fill&#45;rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm&#45;4.5.5a.5.5 0 0 0 0&#45;1H5.707l2.147&#45;2.146a.5.5 0 1 0&#45;.708&#45;.708l&#45;3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708&#45;.708L5.707 8.5H11.5z"/> -->
+<!--     </svg> -->
+<!--     <div class="description"> -->
+<!--       seuraava sivu -->
+<!--     </div> -->
+<!--     <div class="fact"> -->
+<!--       <a  href="{{ .Permalink }}">{{ .Title }}</a> -->
+<!--     </div> -->
+<!--   </span> -->
+<!--   {{ end }} -->
+<!--   {{ with .PrevInSection }}  -->
+<!--   <span class="item"> -->
+<!--     <svg width="32px" height="32px" viewBox="0 0 16 16" class="bi bi&#45;arrow&#45;right&#45;circle&#45;fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"> -->
+<!--       <path fill&#45;rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm&#45;11.5.5a.5.5 0 0 1 0&#45;1h5.793L8.146 5.354a.5.5 0 1 1 .708&#45;.708l3 3a.5.5 0 0 1 0 .708l&#45;3 3a.5.5 0 0 1&#45;.708&#45;.708L10.293 8.5H4.5z"/> -->
+<!--     </svg> -->
+<!--     <div class="description"> -->
+<!--       edellinen sivu -->
+<!--     </div> -->
+<!--     <div class="fact"> -->
+<!--       <a  href="{{ .Permalink }}">{{ .Title }}</a> -->
+<!--     </div> -->
+<!--   </span> -->
+<!--   {{ end }} -->
+<!-- </div> -->
+<!-- {{ end }} -->
 
 </main>
 
