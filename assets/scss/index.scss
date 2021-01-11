@@ -59,11 +59,6 @@ nav {
     justify-content: center;
     width: 100%;
     position: absolute;
-    // left: 0;
-    // right: 0;
-    // text-align: left;
-    // margin-left: auto;
-    // margin-right: auto;
     background-color: $header-color;
     ul {
       list-style: none;
@@ -71,19 +66,15 @@ nav {
       padding: 0;
       margin-bottom: 1rem;
     }
+    .group-card {
+      opacity: 1;
+      transition: opacity .2s linear;
+    }
   }
-  // .card {
-  //   min-width: 225px;
-  // }
 }
 
 .container {
   position: relative;
-  * {
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-  }
   a:visited, a:link {
     color: $text-color;
   }
@@ -95,12 +86,20 @@ nav {
   background: white;
 }
 
+#blogit {
+  z-index: -2;
+}
+
+#muistiinpanoja {
+  z-index: -2;
+}
+
 .hidden {
   display: none;
 }
 
-h1:first-of-type {
-  // margin-top: 0;
+h1 {
+  margin-top: 0;
 }
 
 // .container {
