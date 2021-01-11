@@ -27,34 +27,58 @@ a:link, a:visited {
 
 
 nav {
-  display: flex;
-  background-color: $header-color;
-  border-bottom: solid 2px $lines;
-  div.nav-left {
-    width: 100%;
-  }
-  div.nav-center {
-
-  }
-  div.nav-right {
-    width: 100%;
-  }
-  ul {
-    list-style: none;
-    margin: 0;
-    font-size: 1.2em;
+  &.header {
     display: flex;
-    li {
+    background-color: $header-color;
+    border-bottom: solid 2px $lines;
+    div.nav-left {
+      width: 100%;
+    }
+    div.nav-center {
+    }
+    div.nav-right {
+      width: 100%;
+    }
+    ul {
+      list-style: none;
+      margin: 0;
+      font-size: 1.2em;
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      color: $hilight-on-dark;
-      margin: 1em 1em .8em 1em;
+      li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: $hilight-on-dark;
+        margin: 1em 1em .8em 1em;
+      }
     }
   }
+  &.groups {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 250px);
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    // left: 0;
+    // right: 0;
+    // text-align: left;
+    // margin-left: auto;
+    // margin-right: auto;
+    background-color: $header-color;
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 1rem;
+    }
+  }
+  // .card {
+  //   min-width: 225px;
+  // }
 }
 
 .container {
+  position: relative;
   * {
     margin-left: auto;
     margin-right: auto;
@@ -63,6 +87,20 @@ nav {
   a:visited, a:link {
     color: $text-color;
   }
+}
+
+#main {
+  transition: transform .3s ease-out;
+  z-index: 1;
+  background: white;
+}
+
+.hidden {
+  display: none;
+}
+
+h1:first-of-type {
+  // margin-top: 0;
 }
 
 // .container {

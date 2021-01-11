@@ -8,13 +8,13 @@
     <title>Mahti.org</title>
   </head>
   <body>
-    <nav>
+    <nav class="header">
       <div class="nav-left"></div>
       <div class="nav-center">
         <ul>
           <a href="/"><li><span>SVG</span><span>blogisyöte</span></li></a>
-          <a href="/blogit"><li><span>SVG</span><span>blogit</span></li></a>
-          <a href="/muistiinpanoja"><li><span>SVG</span><span>muistiinpanoja</span></li></a>
+          <a class="menu-item" href="javascript:;" onclick="displayMenu('blogit')"><li><span>SVG</span><span>blogit</span></li></a>
+          <a class="menu-item" href="javascript:;" onclick="displayMenu('muistiinpanoja')"><li><span>SVG</span><span>muistiinpanoja</span></li></a>
         </ul>
       </div>
       <div class="nav-right"></div>
@@ -31,10 +31,41 @@
       <!--   {{ .TableOfContents }} -->
       <!--   {{ end }} -->
       <!-- </nav> -->
+
+
+      <nav id="blogit" class="groups">
+        {{ range $key, $value := .Site.Taxonomies.blogit }}
+        <div class="group-card hidden">
+          <h2>{{ $key | humanize }}</h2>
+          <ul>
+            {{ range first 5 $value }}
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{ end }}
+            {{ if gt (len $value) "5" }}
+            <li class="show-more"><a href="{{ $key | urlize }}">näytä lisää ({{ len $value }})</a></li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+      </nav>
+
+      <nav id="muistiinpanoja" class="groups">
+        {{ range $key, $value := .Site.Taxonomies.muistiinpanoja }}
+        <div class="group-card hidden">
+          <h2><a href="/muistiinpano/{{ $key | urlize }}">{{ $key | humanize }}</a></h2>
+          <ul>
+            {{ range sort $value }}
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+      </nav>
+
       {{ block "main" . }}{{ end }}
     </div>
 
-    <script>
+    <script type="text/javascript">
       let resizeTimer;
       window.addEventListener("resize", () => {
         document.body.classList.add("resize-animation-stopper");
@@ -43,6 +74,49 @@
           document.body.classList.remove("resize-animation-stopper");
         }, 400);
       });
+
+      const blogit = document.getElementById('blogit')
+      const muistiinpanoja = document.getElementById('muistiinpanoja')
+      const main = document.getElementById('main')
+
+      main.style.paddingTop = muistiinpanoja.offsetHeight + 20 + "px"
+
+const displays = {
+  blogit: false,
+  muistiinpanoja: false,
+}
+
+function displayMenu(elementId) {
+
+  const cards = document.getElementsByClassName('group-card')
+  for (let i = 0; i < cards.length; i++) {
+    cards[i].classList.add('hidden')
+  }
+
+  const main = document.getElementById('main')
+  const displayElement = document.getElementById(elementId)
+
+  if (displays[elementId]) {
+    const offsetHeight = displayElement.offsetHeight + "px"
+    main.style.transform = `translateY(-${offsetHeight})`
+    displays[elementId] = false
+  } else {
+    
+    for (let i = 0; i < displayElement.children.length; i++) {
+      displayElement.children[i].classList.remove('hidden')
+    }
+
+    const offsetHeight = displayElement.offsetHeight + "px"
+    main.style.transform = `translateY(${offsetHeight})`
+
+    Object.keys(displays).forEach(k => {
+      displays[k] = displays[k] = false
+    })
+
+    displays[elementId] = true
+  }
+}
+
     </script>
 
   </body>
