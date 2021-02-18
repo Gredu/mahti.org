@@ -52,7 +52,7 @@
       <nav id="muistiinpanoja" class="groups">
         {{ range $key, $value := .Site.Taxonomies.muistiinpanoja }}
         <div class="group-card">
-          <h2><a href="/muistiinpano/{{ $key | urlize }}">{{ $key | humanize }}</a></h2>
+          <h2>{{ $key | humanize }}</h2>
           <ul>
             {{ range sort $value }}
             <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>

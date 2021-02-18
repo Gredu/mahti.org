@@ -61,7 +61,7 @@ h1 {
 }
 
 article {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 a:link, a:visited {
@@ -118,7 +118,7 @@ nav {
         }
       }
       h2 {
-        color: $line;
+        color: $yellow;
         margin-bottom: .2rem;
         a {
           color: $line;
@@ -146,6 +146,21 @@ nav {
     padding: 0 25%;
     margin: 0 auto;
     color: $text-color;
+  }
+  code {
+    border: dotted 1px $yellow;
+    background: $header-color;
+    padding: 2px;
+  }
+  pre {
+    padding: .6rem;
+    font-size: .9rem;
+    border-left: solid 2px $orange;
+    code {
+      padding: 0;
+      background: none;
+      border: none;
+    }
   }
 }
 
