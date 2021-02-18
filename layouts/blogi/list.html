@@ -1,5 +1,4 @@
 {{ define "main" }}
-<main id="blogi">
   {{ range $key, $value := .Site.Taxonomies.blogit }}
   <div class="card">
     <h2>{{ $key | humanize }}</h2>
@@ -13,5 +12,4 @@
     </ul>
   </div>
   {{ end }}
-</main>
 {{ end }}
