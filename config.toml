@@ -16,5 +16,5 @@ enableGitInfo = true
     lineNos = false
     lineNumbersInTable = true
     noClasses = true
-    style = "solarized-dark256"
+    style = "solarized-dark"
     tabWidth = 2
