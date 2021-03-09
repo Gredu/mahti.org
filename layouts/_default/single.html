@@ -63,11 +63,31 @@
 <!--   {{ end }} -->
 <!-- </div> -->
 
-<article>
+<!--   {{ if eq .Type "muistiinpano" }} -->
+<!--   <h3>jäsennys</h3> -->
+<!--   {{ .TableOfContents }} -->
+<!--   {{ end }} -->
+<!--   </nav> -->
+
+{{ if eq .Type "muistiinpano" }}
+<div class="main-note">
+  <nav class="--sidebar">
+    <h2>Jäsennys</h2>
+    {{ .TableOfContents }}
+  </nav>
+  <article class="article--notes">
+    {{ .Data.Terms }}
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+  </article>
+</div>
+{{ else }}
+<article class="article--blog">
   {{ .Data.Terms }}
   <h1>{{ .Title }}</h1>
   {{ .Content }}
 </article>
+{{ end }}
 
 <!-- {{ if eq .Type "blogi" }} -->
 <!-- <div class="info"> -->

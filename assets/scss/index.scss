@@ -43,6 +43,7 @@ h1 {
   margin-bottom: 1rem;
   font-weight: 400;
   color: $orange;
+  line-height: .9;
 }
 
 article {
@@ -130,12 +131,15 @@ nav {
   transition: transform .3s ease-out;
   z-index: 1;
   background: $background;
-  padding: 1rem;
+  // padding: 1rem;
   border-top: solid 2px $orange;
-  article {
-    // width: 500px;
+  .article--blog {
     padding: 0 25%;
-    margin: 0 auto;
+  }
+  .article--notes {
+    padding: 0 10%;
+  }
+  article {
     color: $text-color;
     h1, h2, h3, h4, h5, h6 {
       color: $orange;
@@ -164,6 +168,37 @@ nav {
       padding: 0;
       background: none;
       border: none;
+    }
+  }
+  .main-note {
+    display: grid;
+    grid-template-columns: 300px auto;
+    .--sidebar {
+      background-color: #001f2b;
+      h2 {
+        margin-left: 1em;
+        margin-bottom: .3em;
+        color: $orange;
+      }
+      @mixin sidebar-border {
+        border-left: solid 2px $main-bg;
+        padding-left: .3em;
+        li > a:hover {
+          color: $green;
+        }
+      }
+      ul {
+        list-style: none;
+        color: $line;
+        padding: 0;
+        margin: 0;
+        margin-left: 1.5em;
+        @include sidebar-border;
+        ul {
+          margin: 0;
+          @include sidebar-border;
+        }
+      }
     }
   }
 }
