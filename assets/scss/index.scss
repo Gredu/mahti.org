@@ -102,6 +102,9 @@ nav {
         li {
           a {
             color: $line;
+            &:hover {
+              color: $green;
+            }
           }
         }
       }
@@ -134,6 +137,19 @@ nav {
     padding: 0 25%;
     margin: 0 auto;
     color: $text-color;
+    h1, h2, h3, h4, h5, h6 {
+      color: $orange;
+    }
+    strong {
+      color: $orange;
+    }
+    a {
+      color: $orange;
+      text-decoration: underline;
+      &:hover {
+        color: $green;
+      }
+    }
   }
   code {
     border: dotted 1px $orange;
