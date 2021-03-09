@@ -159,6 +159,26 @@ nav {
         color: $green;
       }
     }
+    section.footnotes {
+      hr {
+        display: none;
+      }
+      ol {
+        margin: 0 1.5em 2em 0;
+        padding-left: 1em;
+        font-size: 1em;
+        li p {
+          margin: 0;
+          font-size: .9em;
+          .footnote-backref {
+            font-size: .7em;
+          }
+        }
+      }
+    }
+    h2#lähteet {
+      margin-bottom: 0;
+    }
   }
   code {
     border: dotted 1px $orange;
@@ -173,6 +193,13 @@ nav {
       padding: 0;
       background: none;
       border: none;
+    }
+  }
+  sup {
+    font-size: .5em;
+    a {
+      text-decoration: none;
+      font-weight: normal;
     }
   }
   .main-note {
