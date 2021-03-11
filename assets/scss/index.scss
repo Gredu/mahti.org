@@ -226,6 +226,9 @@ nav {
         margin: 0;
         margin-left: 1.5em;
         @include sidebar-border;
+        li {
+          margin-bottom: .22em;
+        }
         ul {
           margin: 0;
           @include sidebar-border;
