@@ -11,4 +11,4 @@ Välillä kommuunissa on tapahtunut outoa kapinointia. Kommuunissa on säännöt
 
 **Kyllä me siivoamme!** Siivouslistaan merkitään kommuunille tehdyt siivoustyöt ja ajat. Henkilöllä A on kaikista vähiten siivousaikaa merkittynä listalla (n. 15 minuuttia per kuukausi). Kommuunissa aletaan pohtimaan ammattisiivoojan palkkaamista, mutta A vastustaa sitä kaikista eniten. Hänen mielestään kommuunin asukkaiden pitäisi siivota itse oma kotinsa.
 
-**Hiljaisuus säännöt vapaammiksi.** Asukkaille A ja B on kerrottu, että musiikin kuunteleminen kovalla äänellä voi häiritä muita asukkaita. Musiikin kuunteleminen kovalla pakottaa muutkin asukkaat kuuntelemaan musiikkia, vaikka he eivät sitä haluaisi kuunnella. A ja B eivät tästä huomautuksesta välittäneet. Myöhemmin heille syntyy riita siitä, että toinen kuuntelee "vääränlaista" musiikkia liian kovalla.
+**Hiljaisuus säännöt vapaammiksi.** Asukkaille A ja B on kerrottu, että musiikin kuunteleminen kovalla äänellä voi häiritä muita asukkaita. A ja B eivät tästä huomautuksesta välittäneet. Myöhemmin heille syntyi riita siitä, että toinen kuuntelee "vääränlaista" musiikkia liian kovalla.
