@@ -6,11 +6,11 @@ date: "2021-03-15"
 draft: true
 ---
 
-Eräs asukas oli ehdottanut, että tiskit saa jättää likaisina lavuaariin. Jos asukas haluaa puhtaan lautasen, hänen täytyy vain tiskata itselleen tarvitsemansa määrän astioita. Uudessa ehdotuksessa tiskaaminen tapahtuu jälkikäteen sen sijaan, että tiskit pitäisi tiskata heti käytön jälkeen. Etuna tässä olisi se, että kenenkään ei tarvitsisi enää valittaa tiskaamattomista astioista, sillä likaiset tiskit altaalla olisi normaali näky. Väitettiin, että esteettistä haittaa tästä ei kauheasti ole, koska likaiset lautaset voidaan jättää lavuaariin tiskiveden alle piiloon. Altaassa olevat astiat saavat liota pitkään, joka helpottaa tiskaamista.
+Eräs asukas oli ehdottanut, että tiskit saataisiin jättää likaisina lavuaariin. Mikäli asukas siis haluaisi puhtaan lautasen, hänen täytyisi vain tiskata itselleen tarvitsemansa määrän astioita. Uudessa ehdotuksessa tiskaaminen tapahtuisi jälkikäteen sen sijaan, että tiskit tiskattaisiin heti käytön jälkeen. Etuna tässä olisi se, että kenenkään ei tarvitsisi enää valittaa tiskaamattomista astioista, sillä likaiset tiskit altaassa olisivat normaali näky. Väitettiin, että esteettistä haittaa tästä ei kauheasti olisi, koska likaiset lautaset voitaisiin jättää lavuaariin tiskiveden alle piiloon. Altaassa olevat astiat saisivat liota pitkään, joka myös helpottaisi tiskaamista.
 
-Tähän sääntöön poikkeuksena olisivat isot normaalista arjesta poikkeavat tiskit, kuten esimerkiksi leivontaan liittyvät tiskit. Näitä harva käyttää, joten ne on pestävä heti, etteivät ne vie liikaa tilaa tiskialtaassa.
+Tähän sääntöön poikkeuksena olisivat isot normaalista arjesta poikkeavat astiat, kuten esimerkiksi leivontaan liittyvät kulhot. Näitä harva käyttää, joten ne tulisi pestä heti, etteivät ne veisi liikaa tilaa tiskialtaassa.
 
-Tätä sääntöä Kontulan Kommuuni ei ole ottanut käyttöön. Siinä on kuitenkin hienoutensa, koska näillä tiskisäännöillä jokaisen on pakko tiskata omansa. Ei tulisi myöskään valituksia siitä, että joku on tiskannut huonosti.
+Tätä sääntöä Kontulan Kommuuni ei ole ottanut käyttöönsä, vaikka siinä onkin oma hienoutensa. Näillä tiskisäännöillä jokaisen olisi pakko tiskata omansa, eikä tulisi myöskään valituksia huonosti tiskatuista tiskeistä.
 
 Kommuunissa tiskit unohdetaan usein, jolloin jonkun muun on tiskattava toisten tiskit. Nyt kun puhtaita astioita ei saa valmiina, on tiskattava itselleen uudet. Kukaan kommuunissa ei joudu enää tiskaamaan toisten tiskejä, mikä on ollut iso suuttumusta aiheuttava asia.
 
