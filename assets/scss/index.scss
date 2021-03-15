@@ -108,6 +108,10 @@ nav {
             color: $text-color;
             &:hover {
               color: $green;
+              ~ .groups--date {
+                transform: translateX(10px);
+                opacity: 100%
+              }
             }
           }
         }
@@ -119,6 +123,12 @@ nav {
           color: $orange;
         }
       }
+    }
+    .groups--date {
+      position: absolute;
+      color: $orange;
+      opacity: 0;
+      transition: all .3s ease-out;
     }
   }
 }

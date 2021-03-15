@@ -27,7 +27,12 @@
           <h2>{{ $key | humanize }}</h2>
           <ul>
             {{ range first 5 $value }}
-            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            <li>
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+              {{ with .PublishDate }}
+              <span class="groups--date">{{ .Format "02.01.2006" }}</span>
+              {{ end }}
+            </li>
             {{ end }}
             {{ if gt (len $value) "5" }}
             <li class="show-more"><a href="{{ $key | urlize }}">näytä lisää ({{ len $value }})</a></li>
