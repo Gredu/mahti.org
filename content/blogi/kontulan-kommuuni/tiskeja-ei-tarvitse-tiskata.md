@@ -10,7 +10,7 @@ Eräs asukas oli ehdottanut, että tiskit saataisiin jättää likaisina lavuaar
 
 Tähän sääntöön poikkeuksena olisivat isot normaalista arjesta poikkeavat astiat, kuten esimerkiksi leivontaan liittyvät kulhot. Näitä harva käyttää, joten ne tulisi pestä heti, etteivät ne veisi liikaa tilaa tiskialtaassa.
 
-Tätä sääntöä Kontulan Kommuuni ei ole ottanut käyttöönsä, vaikka siinä onkin oma hienoutensa. Näillä tiskisäännöillä jokaisen olisi pakko tiskata omansa, eikä tulisi myöskään valituksia huonosti tiskatuista tiskeistä.
+Tätä sääntöä Kontulan Kommuuni ei ole ottanut käyttöönsä, vaikka siinä onkin omat hienoutensa. Näillä tiskisäännöillä jokaisen olisi pakko tiskata omansa, eikä tulisi myöskään valituksia huonosti tiskatuista tiskeistä.
 
 Myös usein tapahtuva tiskien unohtelu ongelma olisi korjaantunut, sillä kenenkään ei tarvitsisi tiskata muiden jättämiä tiskejä eikä kokea siitä aiheutuvaa suuttumusta.
 
