@@ -3,7 +3,6 @@ title: "Tiskejä ei tarvitse tiskata"
 author: "Greatman Lim"
 blogit: ["Kontulan kommuuni"]
 date: "2021-03-15"
-draft: true
 ---
 
 Eräs asukas oli ehdottanut, että tiskit saataisiin jättää likaisina lavuaariin. Mikäli asukas siis haluaisi puhtaan lautasen, hänen täytyisi vain tiskata itselleen tarvitsemansa määrän astioita. Uudessa ehdotuksessa tiskaaminen tapahtuisi jälkikäteen sen sijaan, että tiskit tiskattaisiin heti käytön jälkeen. Etuna tässä olisi se, että kenenkään ei tarvitsisi enää valittaa tiskaamattomista astioista, sillä likaiset tiskit altaassa olisivat normaali näky. Väitettiin, että esteettistä haittaa tästä ei kauheasti olisi, koska likaiset lautaset voitaisiin jättää lavuaariin tiskiveden alle piiloon. Altaassa olevat astiat saisivat liota pitkään, joka myös helpottaisi tiskaamista.
