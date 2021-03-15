@@ -258,6 +258,40 @@ nav {
       }
     }
   }
+  .next-article {
+    margin: 3em 0em;
+    display: flex;
+    flex-wrap: frap;
+    .next-article--left {
+      flex: 0 0 50%;
+      text-align: left;
+      .float-left {
+        float: left;
+        margin-right: 1em;
+      }
+    }
+    .next-article--right {
+      flex: 0 0 50%;
+      text-align: right;
+      .float-right {
+        float: right;
+        margin-left: 1em;
+      }
+    }
+    a {
+      color: $text-color;
+      text-decoration: none;
+      .title {
+        color: $orange;
+      }
+      &:hover {
+        color: $orange;
+        > .description {
+          color: $green;
+        }
+      }
+    }
+  }
 }
 
 ::-webkit-scrollbar {
