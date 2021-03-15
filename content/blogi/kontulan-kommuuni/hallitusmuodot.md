@@ -2,7 +2,7 @@
 title: "Hallitusmuodot"
 author: "Greatman Lim"
 blogit: ["Kontulan kommuuni"]
-date: "2021-03-010"
+date: "2021-03-10"
 ---
 
 Kontulan Kommuunissa on nähty yhteensä kolme erilaista hallitusmuotoa. Hallituksen tarkoitus on pitää yllä yhteisiä sääntöjä. Tärkeintä on, että asukkaat saavat elää puhtaassa kommuunissa, nukkua yönsä rauhassa sekä tuntea kommuunin ylläpidossa reiluutta. Kolme kertaa hallitusmuoto on kokenut täydellisen reformoinnin.
