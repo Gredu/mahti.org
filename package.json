@@ -1,0 +1,22 @@
+{
+  "name": "mahti.org",
+  "version": "1.0.0",
+  "description": "",
+  "main": "babel.config.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gredu/mahti.org.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gredu/mahti.org/issues"
+  },
+  "homepage": "https://github.com/Gredu/mahti.org#readme"
+}
