@@ -42,13 +42,17 @@
         {{ end }}
       </nav>
 
+  </span>
       <nav id="muistiinpanoja" class="groups">
         {{ range $key, $value := .Site.Taxonomies.muistiinpanoja }}
         <div class="group-card">
           <h2>{{ $key | humanize }}</h2>
           <ul>
             {{ range sort $value }}
-            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            <li>
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+              <span class="groups--date">{{ .Lastmod.Format "02.01.2006" }}</span>
+            </li>
             {{ end }}
           </ul>
         </div>
