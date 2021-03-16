@@ -4,7 +4,7 @@ author: "Greatman Lim"
 muistiinpanoja: ["Ohjelmointi"]
 ---
 
-Henkilökohtaisia muistiinpanoja javascriptistä, mikä ei ole tarkoitettu oppimateriaaliksi. Sisältö koostuu pääosin suunnittelumalleista ja funktionaalisesta ohjelmoinnista.
+Henkilökohtaisia muistiinpanoja javascriptistä. Tämä ei ole tarkoitettu oppimateriaaliksi. Sisältö koostuu pääosin suunnittelumalleista ja funktionaalisesta ohjelmoinnista.
 
 ## var, let vai ei mitään? [^1]
 
