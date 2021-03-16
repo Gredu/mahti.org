@@ -3,7 +3,7 @@ title: "Kapinointia"
 author: "Greatman Lim"
 blogit: ["Kontulan kommuuni"]
 date: "2021-03-15"
-draft: false
+draft: true
 ---
 Välillä kommuunissa on tapahtunut outoa kapinointia. Kommuunissa on säännöt siitä syystä, että kaikki viihtyisivät asunnossa. Niiden tarkoitus ei ole polkea yksilön vapautta, vaikka välillä kommuunin hyvinvointi meneekin yksilön oikeuksien edelle.
 
