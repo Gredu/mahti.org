@@ -16,7 +16,7 @@ function displayMenu(groupId: string) {
 
   function setOpacity(elements: NodeListOf<Element>, opacity: string): void {
     for (let i = 0; i < elements.length; i++) {
-      elements[i].style.opacity = opacity
+      (elements[i] as HTMLElement).style.opacity = opacity
     }
   }
 
@@ -38,7 +38,7 @@ function displayMenu(groupId: string) {
     const hideLists = document.querySelectorAll('.group-card')
     setOpacity(hideLists, "0");
     for (let i = 0; i < groups.length; i++) {
-      groups[i].style.zIndex = "-1"
+      (groups[i] as HTMLElement).style.zIndex = "-1"
     }
   }
 
