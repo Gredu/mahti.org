@@ -56,6 +56,9 @@ nav {
   &.header {
     display: flex;
     background-color: $header-color;
+    ul {
+      padding: 0;
+    }
     div.nav-left {
       width: 100%;
     }
@@ -110,7 +113,7 @@ nav {
               color: $green;
               ~ .groups--date {
                 transform: translateX(10px);
-                opacity: 100%
+                opacity: 100%;
               }
             }
           }
@@ -154,7 +157,7 @@ nav {
     h1 {
       margin-bottom: .05em;
       &:hover ~ .header-info {
-        transform: translateX(.3em);
+        padding-left: .3em;
       }
     }
     padding: 0 17vw;
@@ -180,13 +183,21 @@ nav {
     }
     .header-info {
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
       color: $orange;
       margin-bottom: 1em;
       transition: all .3s ease-in-out;
-      span {
-        margin: 0 .8em 0 .4em;
-        color: $text-color;
+      .header-info--item {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin: .2em 0;
+        span {
+          margin: 0 .8em 0 .4em;
+          white-space: nowrap;
+          color: $text-color;
+        }
       }
     }
   }
