@@ -55,22 +55,42 @@ a:link, a:visited {
 nav {
   &.header {
     display: flex;
+    justify-content: space-between;
     background-color: $header-color;
     ul {
       padding: 0;
     }
+    div.nav-left, div.nav-center, div.nav-right {
+      flex: 1 1 0;
+    }
     div.nav-left {
-      width: 100%;
+      align-self: center;
+      h1 {
+        margin: 0;
+        padding: .1em 0 0 .5em;
+        font-size: 2em;
+        // font-weight: 700;
+        a {
+          color: $orange;
+          &:hover {
+            color: $green;
+          }
+        }
+      }
     }
     div.nav-center {
-      ul > a {
-        text-transform: uppercase;
-        font-size: .85em;
-        font-weight: bold;
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        & > a {
+          text-transform: uppercase;
+          font-size: .85em;
+          font-weight: bold;
+        }
       }
     }
     div.nav-right {
-      width: 100%;
     }
     h2 {
       color: $orange;
@@ -95,7 +115,6 @@ nav {
     justify-content: center;
     width: 100%;
     position: absolute;
-    background-color: $header-color;
     ul {
       list-style: none;
       margin: 0;
@@ -351,12 +370,53 @@ nav {
   }
 }
 
-#blogit {
+#blogit, #muistiinpanoja, #kirjoittajat {
   z-index: -2;
 }
 
-#muistiinpanoja {
-  z-index: -2;
+$kirjoittajat-size: 190px;
+
+#kirjoittajat > .group-card {
+  display: grid;
+  grid-template-columns: $kirjoittajat-size;
+  position: relative;
+  justify-items: center;
+  justify-content: center;
+  margin: 1.2em 0;
+  span.info {
+    position: absolute;
+    width: $kirjoittajat-size;
+    height: $kirjoittajat-size;
+    text-align: center;
+    font-style: italic;
+    z-index: -1;
+    // font-size: .9em;
+    &.gredu {
+      margin-top: 17%;
+    }
+  }
+  img {
+    border-radius: 50%;
+    width: $kirjoittajat-size;
+    height:$kirjoittajat-size;
+    border: solid 2px $text-color;
+    transition: all .3s ease-in-out;
+  }
+  h2 {
+    margin: .3em .3em 0 .3em;
+  }
+  span {
+    color: $text-color;
+  }
+  ul {
+    justify-self: left;
+    margin: 0 1em;
+    color: $text-color;
+    font-size: 1.2em;
+  }
+  &:hover > img {
+    transform: translateX(-190px) rotate(-180deg);
+  }
 }
 
 .hidden {

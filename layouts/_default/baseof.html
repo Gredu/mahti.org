@@ -9,12 +9,14 @@
   </head>
   <body>
     <nav class="header">
-      <div class="nav-left"></div>
+      <div class="nav-left">
+        <h1><a href="/">Mahti.org</a></h1>
+      </div>
       <div class="nav-center">
         <ul>
-          <a href="/"><li><span></span><span>blogisyöte</span></li></a>
           <a class="menu-item" href="javascript:;" onclick="displayMenu('blogit')"><li><span></span><span>blogit</span></li></a>
           <a class="menu-item" href="javascript:;" onclick="displayMenu('muistiinpanoja')"><li><span></span><span>muistiinpanoja</span></li></a>
+          <a class="menu-item" href="javascript:;" onclick="displayMenu('kirjoittajat')"><li><span></span><span>kirjoittajat</span></li></a>
         </ul>
       </div>
       <div class="nav-right"></div>
@@ -42,7 +44,6 @@
         {{ end }}
       </nav>
 
-  </span>
       <nav id="muistiinpanoja" class="groups">
         {{ range $key, $value := .Site.Taxonomies.muistiinpanoja }}
         <div class="group-card">
@@ -58,6 +59,19 @@
         </div>
         {{ end }}
       </nav>
+
+      <nav id="kirjoittajat" class="groups">
+        <div class="group-card">
+          <span class="info gredu">Bloggaa kommuuniasumisesta, teknologiasta ja ohjelmoinnista. Tanssii, retkeilee ja välillä laskettelee.</span>
+          <img src="https://raw.githubusercontent.com/Gredu/cv.mahti.org/master/static/greatman-lim.jpg" alt="Greatman Lim">
+          <h2>Greatman Lim</h2>
+          <span class="email">etunimi.sukunimi@mahti.org</span>
+          <div class="writer-info">
+          </div>
+        </div>
+      </nav>
+
+
       <main id="main">
         {{ block "main" . }}{{ end }}
       </main>

@@ -1,6 +1,7 @@
 const displays = {
   blogit: false,
   muistiinpanoja: false,
+  kirjoittajat: false,
 }
 
 function displayMenu(groupId: string) {
