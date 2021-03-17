@@ -55,6 +55,7 @@ a:link, a:visited {
 nav {
   &.header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color: $header-color;
     ul {
@@ -80,7 +81,6 @@ nav {
     div.nav-center {
       ul {
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
         & > a {
           text-transform: uppercase;
@@ -88,7 +88,12 @@ nav {
           font-weight: bold;
         }
       }
-    }
+      @media only screen and (max-width: 390px) { 
+        ul {
+          flex-wrap: wrap;
+        }
+      }
+  }
     div.nav-right {
     }
     h2 {
@@ -362,6 +367,10 @@ nav {
     }
     .article--blog .for-small-screen {
       display: flex;
+    }
+    h1 {
+      font-size: 10vw;
+      font-weight: bold;
     }
   }
 }
