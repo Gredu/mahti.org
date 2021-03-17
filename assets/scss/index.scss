@@ -290,9 +290,10 @@ nav {
   }
   .main-note {
     display: grid;
-    grid-template-columns: 300px auto;
+    grid-template-columns: repeat(2, auto);
     .--sidebar {
       background-color: #001f2b;
+      padding-right: 1em;
       h2 {
         margin-left: 1em;
         margin-bottom: .3em;
