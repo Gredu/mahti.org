@@ -63,15 +63,15 @@
       </main>
     </div>
 
-    <!-- <script type="text/javascript"> -->
-    <!--   let resizeTimer; -->
-    <!--   window.addEventListener("resize", () => { -->
-    <!--     document.body.classList.add("resize&#45;animation&#45;stopper"); -->
-    <!--     clearTimeout(resizeTimer); -->
-    <!--     resizeTimer = setTimeout(() => { -->
-    <!--       document.body.classList.remove("resize&#45;animation&#45;stopper"); -->
-    <!--     }, 400); -->
-    <!--   }); -->
+    <script type="text/javascript">
+      let resizeTimer;
+      window.addEventListener("resize", () => {
+        document.body.classList.add("resize-animation-stopper");
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(() => {
+          document.body.classList.remove("resize-animation-stopper");
+        }, 400);
+      });
 
     </script>
 
