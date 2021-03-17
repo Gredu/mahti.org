@@ -153,6 +153,9 @@ nav {
     }
     h1 {
       margin-bottom: .05em;
+      &:hover ~ .header-info {
+        transform: translateX(.3em);
+      }
     }
     padding: 0 17vw;
     .side-info {
@@ -180,6 +183,7 @@ nav {
       align-items: center;
       color: $orange;
       margin-bottom: 1em;
+      transition: all .3s ease-in-out;
       span {
         margin: 0 .8em 0 .4em;
         color: $text-color;
