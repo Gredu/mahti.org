@@ -25,4 +25,4 @@ Kontulan nettisivuille on kirjoitettu paljon ylimääräisiä itsestäänselviä
 
 **Älä piirrä pöydille tai seinille.** Eräällä asukkaalla oli tapana piirtää kuulakärkikynällä pöydille päivähaaveilun aikana. Koska rike tapahtui aina vahingossa, oli häntä vaikea estää piirtämästä. Sääntöä parempi taktiikka oli poistaa yleisistä tiloista kaikki kynät.
 
-**Uuniin ei saa laittaa ruokalautasia.** Joku oli ehtinyt rikko jo muutamia ruokalautasia, koska oli laittanut niitä uuniin. Lautasten halkeilu ei myöskään ollut tarpeeksi suuri vihje, että ruokalautaset eivät kuumaan sovi.
+**Uuniin ei saa laittaa ruokalautasia.** Joku oli ehtinyt rikko jo muutamia ruokalautasia, koska oli laittanut niitä uuniin. Lautasten halkeilu ei myöskään ollut tarpeeksi selkeä vihje, että ruokalautaset eivät kuumaan sovi.
