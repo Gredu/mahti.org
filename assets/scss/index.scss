@@ -171,6 +171,27 @@ nav {
   z-index: 1;
   background: $background;
   border-top: solid 2px $orange;
+  @mixin all-header-info {
+    .header-info {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      color: $orange;
+      margin-bottom: 1em;
+      transition: all .3s ease-in-out;
+      .header-info--item {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin: .2em 0;
+        span {
+          margin: 0 .8em 0 .4em;
+          white-space: nowrap;
+          color: $text-color;
+        }
+      }
+    }
+  }
   .article--blog {
     h1:hover ~ .side-info {
       opacity: 100%;
@@ -203,34 +224,20 @@ nav {
         margin-bottom: .3em;
       }
     }
-    .header-info {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      color: $orange;
-      margin-bottom: 1em;
-      transition: all .3s ease-in-out;
-      .header-info--item {
-        display: flex;
-        align-items: center;
-        flex-wrap: nowrap;
-        margin: .2em 0;
-        span {
-          margin: 0 .8em 0 .4em;
-          white-space: nowrap;
-          color: $text-color;
-        }
-      }
-    }
+    @include all-header-info;
     .for-small-screen {
       display: none;
     }
   }
   .article--notes {
     padding: 0 10%;
+    h1 {
+      margin-bottom: .05em;
+    }
     @media only screen and (max-width: 715px) {
       padding: 0 1em;
     }
+    @include all-header-info;
   }
   article {
     margin-bottom: 4em;
