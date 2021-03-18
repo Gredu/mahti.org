@@ -228,6 +228,9 @@ nav {
   }
   .article--notes {
     padding: 0 10%;
+    @media only screen and (max-width: 715px) {
+      padding: 0 1em;
+    }
   }
   article {
     margin-bottom: 4em;
@@ -280,6 +283,9 @@ nav {
       background: none;
       border: none;
     }
+    @media only screen and (max-width: 715px) {
+      font-size: 1.8vw;
+    }
   }
   sup {
     font-size: .5em;
@@ -290,7 +296,13 @@ nav {
   }
   .main-note {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: 300px auto;
+    @media only screen and (max-width: 975px) {
+      grid-template-columns: auto;
+      .--sidebar {
+        display: none;
+      }
+    }
     .--sidebar {
       background-color: #001f2b;
       padding-right: 1em;
