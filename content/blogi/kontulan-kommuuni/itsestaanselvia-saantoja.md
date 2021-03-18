@@ -24,3 +24,5 @@ Kontulan nettisivuille on kirjoitettu paljon ylimääräisiä itsestäänselviä
 **Kädet on pestävä vessakäynnin jälkeen**. Tämä huomattiin korona pandemian aikana, kun alettiin valvomaan tarkemmin asukkaiden hygieniaa. Yksi asukkaista ei pessyt koskaan käsiään vessakäynnin jälkeen. On ollut myös asukkaita, jotka käyvät kerran viikossa suihkussa.
 
 **Älä piirrä pöydille tai seinille.** Eräällä asukkaalla oli tapana piirtää kuulakärkikynällä pöydille päivähaaveilun aikana. Koska rike tapahtui aina vahingossa, oli häntä vaikea estää piirtämästä. Sääntöä parempi taktiikka oli poistaa yleisistä tiloista kaikki kynät.
+
+**Uuniin ei saa laittaa ruokalautasia.** Joku oli ehtinyt rikko jo muutamia ruokalautasia, koska oli laittanut niitä uuniin. Lautasten halkeilu ei myöskään ollut tarpeeksi suuri vihje, että ruokalautaset eivät kuumaan sovi.
