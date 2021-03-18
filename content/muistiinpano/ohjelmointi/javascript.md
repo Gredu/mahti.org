@@ -785,5 +785,5 @@ stringFunctor('XYZ', minus1)
 
 [^1]: https://www.youtube.com/watch?v=sjyJBL5fkp8
 [^2]: https://www.youtube.com/watch?v=6sQDTgOqh-I 
-[^3]: https://www.youtube.com/watch?v=BMUiFMZr7vk&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84&index=1
+[^3]: https://www.youtube.com/watch?v=BMUiFMZr7vk
 [^4]: https://www.youtube.com/watch?v=Mus_vwhTCq0
