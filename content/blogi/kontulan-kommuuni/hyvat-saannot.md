@@ -27,7 +27,7 @@ Nyt kun tiedetään sääntöjen ero, pohditaan vähän oikeita sääntöjä. Mi
 
 **Sääntöä noudatetaan.** Hienoinkaan sääntö ei toimi, jos sitä ei noudateta. Säännön tulee olla helppoa noudattaa ja asukkaiden täytyy haluta sitä noudattaa.
 
-Katsotaan vielä esimerkeillä miten Kontulan kommuunissa parhaimmat säännöt on muotoiltu.
+[Vastuualueisiin perustuvista säännöistä]({{< ref "/blogi/kontulan-kommuuni/vastuualueisiin-perustuvat-saannot.md" >}}) on kirjoitettu aikaisemmin, joten ei siitä enempää. Katsotaan miten muut hyvät säännöt on luotu.
 
 ## Tiskisäännöt
 
@@ -101,7 +101,7 @@ Ongelmana on tehtävän raskaus. Ensin on pääteltävä, onko astia täynnä va
 Ongelma ratkaistiin muodostamalla järjestelmä:
 
   - täydet roskat ja kierrätettävät viedään eteiseen
-  - seuraava joka lähtee ulos, on vietävä jätökset jätekatokseen
+  - seuraava joka lähtee ulos vie jätökset jätekatokseen
 
 Tämän seurauksella ei tule eturistiriitaa päätettäessä, onko roska- tai kierrätysastia täynnä vai ei. Säännön kaikki vaiheet ovat helppoja, paitsi kun on kyse biosta.
 
@@ -142,4 +142,10 @@ Punaisen nappulat on otettu käyttöön, koska ei aina jaksa muistuttaa asukkait
 
 Hyvin toimiva bio vuoro ei tarvitsisi punaisia nappuloita. Kaikki veisivät vain omalla vuorollaan.
 
+Pienistä epäselvyyksistä ja ongelmista huolimatta bio-vuorot ovat toimineet erittäin hyvin.
+
 ## Vastuualueisiin perustuvat siivousvuorot
+
+Siivous on vapaampaa, mutta asukkailla on enemmän vastuuta. [Vastuualueisiin perustuvista säännöistä]({{< ref "/blogi/kontulan-kommuuni/vastuualueisiin-perustuvat-saannot.md" >}}) on kirjoitettu aikaisemmin. Nämä ovat toimineet hyvin.
+
+Näiden sääntöjen heikkous on niiden monimutkaisuus. Se ei kestänyt myöskään sitä, jos joku ei noudatatanut sääntöä.
