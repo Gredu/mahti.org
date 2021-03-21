@@ -120,6 +120,18 @@ Hyvin toimiva bio vuoro ei tarvitsisi punaisia nappuloita. Kaikki veisivät vain
 
 Pienistä epäselvyyksistä ja ongelmista huolimatta bio-vuorot ovat toimineet suurimmaksi osaksi hyvin, mutta sen mahdolliset ongelmat tiedetään.
 
+## Vaatteiden kuivaaminen
+
+**Vaatteitai tai lakanoita saa kuivattaa ainoastaan omassa huoneessa.** Aikaisemmin ei ollut tästä mitään sääntöjä, jolloin yleisistä tiloista tuli vaatteiden säilytyspaikkoja. Asukkaat eivät ottaneet kuivia vaatteita takaisin huoneisiinsa, vaan jättivät ne yleisiin tiloihin. Myös ovien ol ilaitettu pyykkiä ja lakanoita kuivumaan.
+
+Kommuuni tarjoaa asukkailleen omia pyyheitä ja lakanoita. Nämä lakanat unohdettiin yleensä kuivumaan yleisten tilojen välioviin. Komerovarastosta sai helposti uudet tilalle, mutta joku muu sai viikata kuivuneet pyyhkeet ja lakanat takaisin varastoon.
+
+Huomattiin myös, että kuivaustelineet eivät yleensä palaudu takaisin komerovarastoon muiden käytettäväksi, jos vaatteiden annetaan kuivua yleisillä tiloilla. Kun kuivausteline on asukkaan omassa huoneessa, on se hänelle itselleen esteettinen haitta ja tilan viejä. Kuivaustelineet palautuivat tämän säännön ansiosta paljon nopeammin komerovarastoon.
+
+Loppujenlopuksi vaatteita ja lakanoita voisi kuivattaa kellarin kuivaushuineissakin, mutta useimmille asukkaille ne ovat liian kaukana. Tai ehkä sekin, miten kaukana asiat ovat, on täysin henkilön asenteista kiinni. Kommuuni on neljännessä kerroksessa ja kuivaushuoneet ovat ala-kellarissa. Rappusten jälkeen kävelymatkaa kellarissa on 2 metriä.
+
+Vaatteiden kuivaussääntöjä on noudatettu hyvin, mutta välillä muutamat henkilöt kokeilevan jäätä, ja kuivattavat olohuoneessa.
+
 ## Vastuualueisiin perustuvat siivousvuorot
 
 Siivous on vapaampaa, mutta asukkailla on enemmän vastuuta. [Vastuualueisiin perustuvista säännöistä]({{< ref "/blogi/kontulan-kommuuni/vastuualueisiin-perustuvat-saannot.md" >}}) on kirjoitettu aikaisemmin. Nämä ovat toimineet hyvin.
