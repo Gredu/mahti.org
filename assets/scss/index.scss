@@ -50,6 +50,7 @@ p {
 
 article {
   font-size: 1.2rem;
+  max-width: 75ch;
 }
 
 a:link, a:visited {
@@ -201,6 +202,8 @@ nav {
     }
   }
   .article--blog {
+    padding: 0 17vw;
+    margin: 0 auto;
     h1:hover ~ .side-info {
       opacity: 100%;
       transform: translateX(-120px);
@@ -211,7 +214,6 @@ nav {
         padding-left: .3em;
       }
     }
-    padding: 0 17vw;
     .side-info {
       position: absolute;
       color: $text-color;
