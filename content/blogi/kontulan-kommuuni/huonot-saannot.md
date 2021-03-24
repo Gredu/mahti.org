@@ -35,7 +35,7 @@ Yllättävän moni asukas on ehdottanut, että siivoussääntöjä ei olisi olle
 
 ## Siivousvuorolistat
 
-Monet solut toimivat siivousvuorolistoilla. Nämä ovat joskus toimineet ja joskus eivät, mutta kommuunissa ne eivät koskaan toimineet. Siivousvuorolista vaatii sen, että jokainen noudattaa sitä.
+Monet solut toimivat siivousvuorolistoilla, jotka joskus toimivat ja joskus eivät, mutta kommuunissa ne eivät koskaan ole toimineet. Siivousvuorolista vaatii sen, että jokainen noudattaa sitä.
 
 Kommuunissa on pitänyt aina muistuttaa siivouksesta, ja myös siivousjäljen laatu on ollut eritasoista. Jotkut käyttivät siivoukseen viisitoista minuuttia ja jotkut tunnin, mikä myös näkyi. Ongelmaa on joskus yritetty korjata vertaisarvioilla, eli seuraava siivousvuorossa oleva tarkistaa edellisen siivousjäljen. Tämän ajateltiin olevan hyvä idea, koska huono siivous aiheutti seuraavalle enemmän työtä.
 
