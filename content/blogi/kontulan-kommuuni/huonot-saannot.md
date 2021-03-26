@@ -2,8 +2,7 @@
 title: "Huonot säännöt"
 author: "Greatman Lim"
 blogit: ["Kontulan kommuuni"]
-date: "2021-03-20"
-draft: true
+date: "2021-03-27"
 ---
 [Edellisessä blogipostauksessa]({{< ref "/blogi/kontulan-kommuuni/hyvat-saannot.md">}}) kerrottiin hyvistä säännöistä ja lueteltiin hyvien sääntöjen tuntomerkkejä. Nyt on vuorossa kommuunin huonot säännöt.
 
