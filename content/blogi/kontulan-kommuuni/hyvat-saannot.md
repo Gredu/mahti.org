@@ -2,7 +2,7 @@
 title: "Hyvät säännöt"
 author: "Greatman Lim"
 blogit: ["Kontulan kommuuni"]
-date: "2021-03-18"
+date: "2021-03-26"
 ---
 Jokainen sääntö polkee aina yksilön vapautta. Säännöt kannattaa kuitenkin asettaa, jos siitä tuleva hyöty voittaa haitat. Usein jokaisen elämään muutenkin vaikuttavat jotkut säännöt, jotka ehkä henkilö itse on asettanut itselleen. Itselleen asetettu sääntö voi muuttua pitkän ajan jälkeen tavaksi, eikä asiaa välttämättä ajattele enää sääntönä. Muistan esimerkiksi vanhempieni pakottaneen minut aina pesemään hampaani aamulla ja ennen nukkumaan menoa. Nykyään se ei tunnu säännöltä, vaan järkevältä asialta tehdä.
 
