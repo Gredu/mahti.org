@@ -37,7 +37,7 @@
             </li>
             {{ end }}
             {{ if gt (len $value) "5" }}
-            <li class="show-more"><a href="/blogit/{{ $key | urlize }}">näytä lisää ({{ len $value }})</a></li>
+            <li class="show-more"><a href="/blogit/{{ $key | urlize }}">näytä lisää ({{ len $value }}) ...</a></li>
             {{ end }}
           </ul>
         </div>

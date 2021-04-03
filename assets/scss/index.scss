@@ -426,6 +426,19 @@ nav {
   z-index: -2;
 }
 
+#blogit {
+  .show-more {
+    margin-top: .2em;
+    a {
+      border-bottom: 2px solid $orange;
+      transition: all .1s ease-in-out;
+      &:hover {
+        border-bottom: 6px solid $orange;
+      }
+    }
+  }
+}
+
 $kirjoittajat-size: 190px;
 
 #kirjoittajat > .group-card {
