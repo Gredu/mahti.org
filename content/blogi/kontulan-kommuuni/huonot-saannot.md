@@ -20,6 +20,8 @@ Tässä säännöstä ei tule ilmi tavoitetta ja sääntö on liian epätarkka, 
 
 On käynyt joskus jopa niin, että asukkaan ystävät ovat ruokailun jälkeen pohtineet, että pitäisiköhän tiskit tiskata pois. Tähän asukas on selittänyt kaverisäännön, jolloin tiskit ovat jääneet tiskaamatta. Asukkaan ystävät ovat olleet siis enemmän huolissaan kommuunin mukavuudesta kuin itse asukas.
 
+Joskus on myös luultu, että jonkun muun kommuunin asukkaan kaveri on oma kaveri. Tällöin on vaan jätetty tiskit näille oikeille kaveruksille. Kun tiskivastuu on mennyt epäselväksi, jätetään tiskit tiskaamatta.
+
 ## Toimimattomia tiskisääntöjä
 
 Tiskien unohtaminen on ollut jo jonkin aikaa ongelmana kommuunissa. Yksi asukkaista oli ehdottanut, että jokainen tiskaisi aina yhden ylimääräisen tiskin, jolloin päästäisiin pikkuhiljaa eroon unohdetuista tiskeistä. Ei kestänyt kauaakaan, kun säännön ehdottaja totesi säännön huonoksi. Hänen lisäkseen oli ainoastaan yksi, joka tätä sääntöä noudatti. Lisäksi kaikki kyllä tiesivät, kuka tiskejä unohtelee eniten.
