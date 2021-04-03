@@ -1,5 +1,9 @@
 {{ define "main" }}
 
+  {{ range .Pages }}
+    {{ partial "blog-list" . }}
+  {{ end }}
+
       <!-- <main id="blogi" style="display: none;"> -->
       <main id="blogi">
 
