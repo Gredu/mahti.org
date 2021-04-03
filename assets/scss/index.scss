@@ -259,11 +259,13 @@ nav {
       color: $orange;
     }
     a {
-      color: $orange;
-      text-decoration: underline;
+      text-decoration: 2px underline $orange;
       &:hover {
         color: $green;
       }
+    }
+    h1 a {
+      color: $orange;
     }
     section.footnotes {
       hr {
