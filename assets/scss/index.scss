@@ -4,6 +4,7 @@ $hilight-on-dark: #fffcfb;
 $main-bg: #003e10;
 
 $background: #06171e; // from light
+$main-background: #081e27;
 $text-color: #fffcfb;
 $comment: #5f5f5f; // from light
 $red: #cc6666;
@@ -178,7 +179,7 @@ nav {
 #main {
   transition: transform .3s ease-out;
   z-index: 1;
-  background: $background;
+  background: $main-background;
   border-top: solid 2px $orange;
   @mixin all-header-info {
     .header-info {
