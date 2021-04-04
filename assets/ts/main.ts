@@ -21,6 +21,12 @@ function displayMenu(groupId: string) {
     }
   }
 
+  function setAllOpacityZero(): void {
+    document.querySelectorAll('.group-card').forEach(e => {
+      (e as HTMLElement).style.opacity = "0"
+    })
+  }
+
   function setTransitionY(): void {
     const displayTarget = Object.keys(displays).filter(k => displays[k] == true)
     if (displayTarget.length == 1) {
@@ -44,22 +50,22 @@ function displayMenu(groupId: string) {
   }
 
   function renderDisplay() :void {
-
     reset()
     setTransitionY()
     setZindex()
 
     const showList = document.querySelectorAll(`#${groupId} .group-card`)
     setOpacity(showList, "1")
-
   }
 
   if (displays[groupId]) {
     setDisplaysFalse()
+    renderDisplay()
+    setAllOpacityZero()
   } else {
     setDisplaysFalse()
     displays[groupId] = true
+    renderDisplay()
   }
 
-  renderDisplay()
 }
