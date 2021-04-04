@@ -181,6 +181,7 @@ nav {
   z-index: 1;
   background: $main-background;
   border-top: solid 2px $orange;
+  padding-bottom: 3em;
   @mixin all-header-info {
     .header-info {
       display: flex;
