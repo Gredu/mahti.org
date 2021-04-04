@@ -62,17 +62,17 @@ Tämä siivousjärjestely on mielenkiintoinen, vaikka se ei kommuunissa toiminut
 
 Asukkaiden siivousjärjestys myös laitetaan siten, että joka toisella on ahkerampi siivooja. Näin pariksi tulee aina yksi ahkera. Viimeisenä sopimuksena vielä, että siivouksen saa lopettaa vain samaan aikaan, eli kukaan ei saa jättää pariaan siivoamaan yksin.
 
-Sääntö ei toiminut luultavasti siksi, että se oli liian monimutkainen. Tämän lisäksi jotkut asukkaat lopettivat siivouksen kesken, vaikka toinen jatkoikin, ja tämänpä vasta olikin sille yksin siivoajalle todella ärsyttävää. Näyttää myös siltä, että laiskan ja ahkeran parin yhdistäminen ei välttämättä ollutkaan kovin hyvä idea.
+Sääntö ei toiminut luultavasti siksi, että se oli liian monimutkainen. Tämän lisäksi jotkut asukkaat lopettivat siivouksen kesken, vaikka toinen jatkoikin, ja tämäpä vasta olikin sille yksin siivoajalle todella ärsyttävää. Näyttää myös siltä, että laiskan ja ahkeran parin yhdistäminen ei välttämättä ollutkaan kovin hyvä idea.
 
-Välillä piti myös kolmannen osapuolen osallistua siivouksen organisointiin, jos viestintä kahden seuraavassa vuorossa olijoiden kesken ei toiminut.
+Välillä piti myös kolmannen osapuolen osallistua siivouksen organisointiin, jos viestintä kahden seuraavassa vuorossa olijoiden kesken ei toiminut. Siivous saattois lykkääntyä sen takia, että siivouksen päivämäärää ei pystytty sopimaan.
 
 ## Yleisten pyykkien pesu
 
 Kommuunilla on paljon yleisiä pyykkejä. Näitä ovat esimerkiksi suihkuhuoneen suihkumatto, käsipyyhkeet suihkuhuoneessa, vessassa ja keittiössä, kuivauspyyhe keittiössä ja keittiön pöytäliina. Pyykkien pesuun liittyvä sääntö: **Jos pesukoneeseen mahtuu pyykkejä, täytä ne kommuunin pyykeillä.**
 
-Kommuunin periaatteisiin kuuluu ekologisuus. Asukkaiden pitäisi pestä vain täysiä pesukoneellisia, mutta usein näin ei ole. Kommuunipyykkejä pestään sen verran harvoin, että pesukone saadaan täyteen pelkästään kommuunin pyykeillä. Näin ei pitäisi käydä, jos asukkaat täyttäisivät vajaana olevat pesukoneet niillä.
+Kommuunin periaatteisiin kuuluu ekologisuus. Asukkaiden pitäisi pestä vain täysiä pesukoneellisia, mutta usein näin ei ole. Kommuunipyykkejä pestään sen verran harvoin, että pesukone saadaan täyteen pelkästään kommuunin pyykeillä. Näin ei pitäisi käydä, jos asukkaat täyttäisivät vajaana olevat pesukoneet kommuunin pyykeillä.
 
-Sääntö ei luultavasti toimi, koska asukkaat näyttävät unohtavan kommuunipyykit. Ehkä on myöskin ajateltu, että pyykit aiheuttavat liikaa työtä, kyllähän joku muu ne hoitaa.
+Sääntö ei luultavasti toimi, koska asukkaat näyttävät unohtavan kommuunipyykit. Ehkä on myöskin ajateltu, että pyykit aiheuttavat liikaa työtä - joku muu ne hoitaa.
 
 Pesukoneen päälle on laitettu lappu, jossa muistutetaan kommuunipyykeistä, mutta se ei kuitenkaan ole auttanut.
 
