@@ -121,7 +121,7 @@ nav {
   }
   &.groups {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 270px);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 270px));
     justify-content: center;
     width: 100%;
     position: absolute;
