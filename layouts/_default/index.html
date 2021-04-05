@@ -1,6 +1,6 @@
 {{ define "main" }}
-  {{ range $key, $value := .Site.Taxonomies.blogit }}
-    {{ range sort $value }}
+  {{ range $i, $e := where .Site.Pages "Section" "blogi" }}
+    {{ if isset .Params "date" }}
       {{ partial "blog-list" . }}
     {{ end }}
   {{ end }}
