@@ -2,7 +2,7 @@
 title: "Pohjalaisten tanssikerhon nettisivut"
 author: "Greatman Lim"
 blogit: ["Ohjelmointia ja tekniikkaa"]
-date: "2021-03-21"
+date: "2021-04-05"
 draft: false
 ---
 Pohjalaisten tanssikerho on Pohjalaisten osakuntien, eli Vasa Nation, Etelä-Pohjalaisten ja Pohjois-Pohjalaisten osakuntien yhteinen tanssikerho. Toimin tässä kerhossa puheenjohtajana vuonna 2019 ja varapuheenjohtajana vuosina 2020 ja 2021. Tämä blogi on kirjoitettu vuonna 2021, eli olen saattanut jatkaa hallituksessa.
