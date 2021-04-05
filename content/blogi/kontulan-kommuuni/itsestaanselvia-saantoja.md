@@ -25,6 +25,8 @@ Kontulan nettisivuille on kirjoitettu paljon ylimääräisiä itsestäänselviä
 
 **Älä piirrä pöydille tai seinille.** Eräällä asukkaalla oli tapana piirtää kuulakärkikynällä pöydille päivähaaveilun aikana. Koska rike tapahtui aina vahingossa, oli häntä vaikea estää piirtämästä. Sääntöä parempi taktiikka oli poistaa yleisistä tiloista kaikki kynät.
 
-Edelliseen läheisesti liittyvä: **Älä tarraa tai teippaa mainoksia, logoja, yms. yleisiin tiloihin tai tapettiseiniin.** Toivottavasti tulevaisuudessa ei tarvitse laittaa sääntöä: **Älä spreijaa, maalaa tai tee minkäänlaista taidetta mihinkään seinälle.** Nämä ongelmat ovat hankalempia, koska ne tehdään yleensä tahallisesti.
+Edelliseen läheisesti liittyvä: **Älä tarraa tai teippaa mainoksia, logoja, yms. yleisiin tiloihin tai tapettiseiniin.** Toivottavasti tulevaisuudessa ei tarvitse laittaa sääntöä: **Älä spreijaa, maalaa tai tee minkäänlaista taidetta mihinkään seinälle.** Nämä ongelmat ovat hankalempia, koska ne tehdään yleensä tahallisesti siten, että sen tiedetään olevan kiellettyä.
 
 **Uuniin ei saa laittaa ruokalautasia.** Joku oli ehtinyt rikko jo muutamia ruokalautasia, koska oli laittanut niitä uuniin. Lautasten halkeilu ei myöskään ollut tarpeeksi selkeä vihje, että ruokalautaset eivät kuumaan sovi.
+
+**Älä laita märkiä tiskejä astiakaappeihin.** Yleensä ulkomaalaiset laittoivat tiskit pestyään astiat suoraan astiakaappeihin. Kuivauskaappi on yllättävän suomalainen!
