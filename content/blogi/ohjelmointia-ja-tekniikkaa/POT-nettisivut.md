@@ -5,9 +5,9 @@ blogit: ["Ohjelmointia ja tekniikkaa"]
 date: "2021-04-05"
 draft: false
 ---
-Pohjalaisten tanssikerho on Pohjalaisten osakuntien, eli Vasa Nation, Etelä-Pohjalaisten ja Pohjois-Pohjalaisten osakuntien yhteinen tanssikerho. Toimin tässä kerhossa puheenjohtajana vuonna 2019 ja varapuheenjohtajana vuosina 2020 ja 2021. Tämä blogi on kirjoitettu vuonna 2021, eli olen saattanut jatkaa hallituksessa.
+Pohjalaisten tanssikerho on Pohjalaisten osakuntien, eli Vasa Nationin, Etelä-Pohjalaisten ja Pohjois-Pohjalaisten osakuntien yhteinen tanssikerho. Toimin tässä kerhossa puheenjohtajana vuonna 2019 ja varapuheenjohtajana vuosina 2020 ja 2021. Tämä blogi on kirjoitettu vuonna 2021, eli olen saattanut jatkaa hallituksessa.
 
-Aloin suunnitelemaan nettisivuja jo puheenjohtajakaudella, mutta nettisivut valmistuivat vasta 2020 varapuheenjohtajakaudella. Syy viivästykseen oli puheenjohtajan työläs virka, enkä halunnut käyttää kaikkea vapaata aikaani järjestöasioissa. Projektia myös viivästytti tanssikerhon hallituksen tietyt linjaukset. Tämän artikkelin tarkoituksena ei ole kuitenkaan avata järjestötoimintaa tai Pohjalaisten tanssikerhon hallituksen työtapoja, vaan kertoa tanssikerhon nettisivujen rakentamisesta.
+Aloin suunnitelemaan nettisivuja jo puheenjohtajakaudella, mutta nettisivut valmistuivat vasta vuoden 2020 varapuheenjohtajakaudella. Syy viivästykseen oli puheenjohtajan työläs virka, enkä halunnut käyttää kaikkea vapaata aikaani järjestöasioihin. Projektia myös viivästytti tanssikerhon hallituksen tietyt linjaukset. Tämän artikkelin tarkoituksena ei ole kuitenkaan avata järjestötoimintaa tai Pohjalaisten tanssikerhon hallituksen työtapoja, vaan kertoa tanssikerhon nettisivujen rakentamisesta.
 
 Nettisivut ovat elossa osoitteessa https://pohjalaiset.fi/tanssikerho ja sen versionhallinta githubissa osoitteessa https://github.com/pohjalaisten-tanssikerho/web-page
 
@@ -34,15 +34,15 @@ Hyvä paikka aloittaa Hugo on katsoa [Mike Danen Youtube videosarja](https://www
 
 ## CircleCI ja Forestry
 
-Pohjalaisten tanssikerhon nettisivujen etusivulla näytetään aina kolme seuraavaa tapahtumaa. Näihin ei ole käytetty javascriptiä, vaan Hugo generoi joka päivä uudet staattiset sivut. CircleCI tekee tämän joka yö n. kahden aikaan ja lähettää generoidut tiedostot Pohjalaisten palvelimeen.
+Pohjalaisten tanssikerhon nettisivujen etusivulla näytetään aina kolme seuraavaa tapahtumaa. Näihin ei ole käytetty javascriptiä, vaan Hugo generoi joka päivä uudet staattiset sivut. CircleCI tekee tämän joka yö noin kahden aikaan ja lähettää generoidut tiedostot Pohjalaisten palvelimeen.
 
 Tämä ratkaisu saattaa tuntua aika raskaalta, mutta on oikeastaan yllättävän kevyt. Ehkä kuitenkin parempi menetelmä olisi ollut käyttää javascriptiä, mutta silloisessa tilanteessa kiinnostus oli oppia enemmän Hugoa ja CircleCI:tä.
 
-Vaikka javascriptistä olisikin otettu käyttöön, ei CircleCI:stä kuitenkaan olisi päästy eroon. Jotta muukin kuin tekninen asiantuntija pystyisi nettisivuja päivittämän, on pakko automatisoida ns. *build and deploy* sykli. Tämä tapahtuu käytännössä siten, että kun versionhallintaan tulee muutos, CircleCI havaitsee sen ja käynnistää syklin.
+Vaikka javascriptistä olisikin otettu käyttöön, ei CircleCI:stä kuitenkaan olisi päästy eroon. Jotta muukin kuin tekninen asiantuntija pystyisi nettisivuja päivittämään, on pakko automatisoida ns. *build and deploy* sykli. Tämä tapahtuu käytännössä siten, että kun versionhallintaan tulee muutos, CircleCI havaitsee sen ja käynnistää syklin.
 
-Versionhalinnan, eli Githubin ja gitin käyttö on hankala koodaustaidottomalle. Nettisivun sisältöä voi kuitenkin ainoastaan versionhallinnasta päivittää tai muokata. Tässä kohtaa Forestry tulee mukaan. Sen ansiosta versionhallinta onnistuu jokaiselta.
+Versionhallinnan, eli Githubin ja gitin käyttö on hankala koodaustaidottomalle. Nettisivun sisältöä voi kuitenkin ainoastaan versionhallinnasta päivittää tai muokata. Tässä kohtaa Forestry tulee mukaan. Sen ansiosta versionhallinta onnistuu jokaiselta.
 
-Sisällön tuottajan ei tarvitse ymmärtää taustalla tapahtuvista asioista. Käytännössä mitä tapahtuu on, että kun muutokset on tehty versionhallintaan Forestryllä, CircleCI nappaa koodin ja suorittaa *Build and deploy* syklin. Sivut siis rakennetaan uudelleen ja lähetetään palvelimeen, johon osoite pohjalaiset.fi/tanssikerho vie.
+Sisällön tuottajan ei tarvitse ymmärtää taustalla tapahtuvista asioista. Käytännössä se mitä tapahtuu on, että kun muutokset on tehty versionhallintaan Forestryllä, CircleCI nappaa koodin ja suorittaa *Build and deploy* syklin. Sivut siis rakennetaan uudelleen ja lähetetään palvelimeen, johon osoite pohjalaiset.fi/tanssikerho vie.
 
 Sisällön tuottaja ei välttämättä edes tunne käsitettä versionhallinta, Github tai git, mutta ei hänen tarvitsekaan. Forestry näyttää ihan tavalliselta CMS:ltä, eikä miltään versionhallintasovellukselta, vaikka se sitä sisimmältään oikeasti on.
 
@@ -64,11 +64,11 @@ Alihakemistossa oleva nettisivu on semanttisesti huono idea. Yleensä alihakemis
 
 Pohjalaisten nettisivuilla ei ole ollut [SSL-suojausta](https://www.websecurity.digicert.com/security-topics/what-is-ssl-tls-https), mikä vaikuttaa myös tanssikerhon nettisivuihin. SSL-suojausta ei tietääkseni ole mahdollista hankkia alihakemistossa olevalle nettisivulle, vaan SSL-suojaukset vaikuttavat koko domainiin (alidomain on kuitenkin eri asia). Pohjalaisten Valtuuskunnan nettisivut eivät näytä keräävään arkaluonteista tietoa. Nopeasti vilkaistuna nettisivujen kautta voi lähettää ainoastaan juhlailmoituksia. Sen sijaan Pohjalaisten tanssikerhon nettisivujen kautta ilmoittaudutaan tanssikursseille. Koska tanssikerho on yhdistys, on sen ylläpidettävä jäsenrekisteriä. Käytännössä tanssijoilta kerätään asumistietoja (paikkakunta), sähköpostiosoite, nimet jne. jotta se täyttää jäsenreskiterin minimivaatimukset. Pohjalaisten nettisivut eivät siis tarvitsisi SSL-suojasta, mutta Pohjalaisten tanssikerhon nettisivuille se voisi olla hyvä.
 
-Mielestäni SSL kannattaa hankkia muutenkin, vaikka nettisivut eivät käsittelisikään arkaluonteista tietoa, koska hakukoneet suosivat suojattuja sivuja. Lisäksi SSL-suojauksen hankkiminen on helppoa ja nykyään ilmaista. Vihjasin Pohjalaisten Valtuuskunnalle, että nettisivun suojaaminen voisi olla hyvä juttu ja vuoden päästä he saivatkin sen tehtyä (2021 alussa). En ole kuitenkaan varma johtuiko se minun antamasta vihjeestä.
+Mielestäni SSL kannattaa hankkia muutenkin, vaikka nettisivut eivät käsittelisikään arkaluonteista tietoa, koska hakukoneet suosivat suojattuja sivuja. Lisäksi SSL-suojauksen hankkiminen on helppoa ja nykyään ilmaista. Vihjasin Pohjalaisten Valtuuskunnalle, että nettisivun suojaaminen voisi olla hyvä juttu ja vuoden päästä he saivatkin sen tehtyä (2021 alussa). En ole kuitenkaan varma johtuiko se antamastani vihjeestä.
 
-Olen kertonut Pohjalaisten Valtuuskunnalle miten hankala alihakemistossa olevat nettisivut ovat. Tämän voi korjata helposti luomalla tanssikerholle alidomainin, jolloin osoite olisi muotoa tanssikerho.pohjalaiset.fi . Tämä olisi hyvä semanttimen parannus ja hakukoneetkin pitäisivät siitä . CMS:ään saataisiin toimimaan myös esikatselu, jos domainin muutoksen toteutus tehdään oikein.
+Olen kertonut Pohjalaisten Valtuuskunnalle, miten hankala alihakemistossa olevat nettisivut ovat. Tämän voi korjata helposti luomalla tanssikerholle alidomainin, jolloin osoite olisi muotoa tanssikerho.pohjalaiset.fi . Tämä olisi hyvä semanttimen parannus ja hakukoneetkin pitäisivät siitä. CMS:ään saataisiin toimimaan myös esikatselu, jos domainin muutoksen toteutus tehdään oikein.
 
-Oikeastaan en ole ihan varma miten alidomain toteutetaan tai miten se kannattaa toteuttaa. Asian voisi hoitaa `redirect 301` ohjauksella osoitteesta pohjalaiset.fi/tanssikerho osoitteeseen tanssikerho.pohjalaiset.fi ja kohdeosoitteessa olisi uusi palvelin, jossa nettisivut ovat. Tämä olisi tämän hetkisellä ratkaisuilla (CircleCI ja Forestry) varmaan paras.
+Oikeastaan en ole ihan varma siitä, miten alidomain toteutetaan tai miten se kannattaa toteuttaa. Asian voisi hoitaa `redirect 301` ohjauksella osoitteesta pohjalaiset.fi/tanssikerho osoitteeseen tanssikerho.pohjalaiset.fi ja kohdeosoitteessa olisi uusi palvelin, jossa nettisivut ovat. Tämä olisi tämän hetkisellä ratkaisuilla (CircleCI ja Forestry) varmaan paras.
 
 Kun Pohjalaisten tanssikerhon nettisivut olivat Netlify alustalla, silloin helpoin ja paras tapa olisi ollut vain uudelleen ohjata osoitteista pohjalaiset.fi/tanssikerho ja tanssikerho.pohjalaiset.fi osoittamaan Netlifyn alustaan.
 
@@ -76,8 +76,8 @@ Kun Pohjalaisten tanssikerhon nettisivut olivat Netlify alustalla, silloin helpo
 
 Pohjalaisten tanssikerhon nettisivujen rakentaminen oli helppoa. Tämä ei ollut ensimmäinen kerta, kun rakennan nettisivuja Hugolla. Tätä ennen on ollut jo aika vahva osaaminen nettisivujen peruspalikoista, kuten HMTL, CSS ja javascript.
 
-Isoimmat vaikeudet olivat oikeastaan sisällön tuotannossa, johon meni aikaa kaikista eniten. Sinänsä ehkä huono juttu, koska Pohjalaisten tanssikerhon hallituksen muut jäsenet olisivat voineet tehdä sen. Olin kuitenkin ainoa joka osasi tehdä nettisivuja. Lisäksi koska en ole ihan täysin suomalainen, ei minun suomen kielen kirjoittaminen välttämättä ollut hallituksen parhaimpia.
+Isoimmat vaikeudet olivat oikeastaan sisällön tuotannossa, johon meni aikaa kaikista eniten. Sinänsä ehkä huono asia, sillä Pohjalaisten tanssikerhon hallituksen muut jäsenet olisivat voineet tehdä sen. Olin kuitenkin ainoa joka osasi tehdä nettisivuja. Lisäksi, koska en ole ihan täysin suomalainen, ei minun suomen kielen kirjoittaminen välttämättä ollut hallituksen parhaimpia.
 
-Nettisivun taksonomia ja sisällön tuottamisessa auttoivat Pohjalaisten tanssikerhon vanhat nettisivut. Näissä oli jo vähän sisältöä, joka auttoi hahmottamaan mitä kaikkea netisivuilla pitäisi olla. Näin on helpompi suunnitella nettisivut oikean kokoisiksi. Muissa projekteissa on ollut välillä ongelmia siinä, että asiakas on ilmoittanut sisällön olevan määrältään suuri, vaikka sitä oli tullut loppujen lopuksi aika vähän. Lopputuloksena nettisivut suunniteltiin liian suureksi. Tekstin ympärillä on ollut liikaa tilaa ja kokonaisilme on kärsinyt.
+Nettisivun taksonomia ja sisällön tuottamisessa auttoivat Pohjalaisten tanssikerhon vanhat nettisivut. Näissä oli jo vähän sisältöä, joka auttoi hahmottamaan, mitä kaikkea netisivuilla pitäisi olla. Näin on helpompi suunnitella nettisivut oikean kokoisiksi. Muissa projekteissa on ollut välillä ongelmia siinä, että asiakas on ilmoittanut sisällön olevan määrältään suuri, vaikka sitä oli tullut loppujen lopuksi aika vähän. Lopputuloksena nettisivut suunniteltiin liian suureksi. Tekstin ympärillä on ollut liikaa tilaa ja kokonaisilme on kärsinyt.
 
 Grafiikan teko oli yllättävän helppoa. Olin ollut siinä luulossa, että siihen olisi voinut mennä kauemminkin. Onneksi **Tomi Päiväniemi** oli antanut kuvia käyttöön ja kuvissa esiintyneet tanssijat olivat myös antaneet suostumuksensa. Kuvat ja grafiikka yhdessä on tehnyt nettisivuista yllättävän kauniit! Värimaisema on rohkea ja muista hyvin erottuva. Sävyn inspiraatiotana on ollut tumman yönsininen taivas ja valkoisina hohtavat tähdet, sekä pieni aamunkajon lupaus, mikä näkyy oranssina ja lämpönä. Tätähän ei sivulla vierailevat välttämättä näe, mutta uskoisin ainakin tunnelman välittyvän.
