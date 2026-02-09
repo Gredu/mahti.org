@@ -1,61 +1,62 @@
-const displays = {
+const displays: any = {
   blogit: false,
   muistiinpanoja: false,
   kirjoittajat: false,
-}
+};
 
-function displayMenu(groupId: string) {
-
+(window as any).displayMenu = function(groupId: string) {
   const main = document.getElementById('main')
   const groups = document.querySelectorAll('.groups')
 
-  function setDisplaysFalse(): void {
-    Object.keys(displays).forEach(k => {
-      displays[k] = false
-    })
-  }
+  if (!main) return
 
-  function setOpacity(elements: NodeListOf<Element>, opacity: string): void {
-    for (let i = 0; i < elements.length; i++) {
-      (elements[i] as HTMLElement).style.opacity = opacity
+  function setDisplaysFalse() {
+    for (const k in displays) {
+      displays[k] = false
     }
   }
 
-  function setAllOpacityZero(): void {
-    document.querySelectorAll('.group-card').forEach(e => {
+  function setOpacity(elements: NodeListOf<Element>, opacity: string) {
+    elements.forEach((el) => {
+      (el as HTMLElement).style.opacity = opacity
+    });
+  }
+
+  function setAllOpacityZero() {
+    document.querySelectorAll('.group-card').forEach((e) => {
       (e as HTMLElement).style.opacity = "0"
     })
   }
 
-  function setTransitionY(): void {
-    const displayTarget = Object.keys(displays).filter(k => displays[k] == true)
-    if (displayTarget.length == 1) {
-      const offsetHeight = document.getElementById(displayTarget[0]).offsetHeight + "px"
-      main.style.transform = `translateY(${offsetHeight})`
+  function setTransitionY() {
+    const activeGroups = Object.keys(displays).filter(k => displays[k])
+    if (activeGroups.length === 1) {
+      const target = document.getElementById(activeGroups[0])
+      if (target) {
+        main!.style.transform = `translateY(${target.offsetHeight}px)`
+      }
     } else {
-      main.style.transform = 'translateY(0)'
+      main!.style.transform = 'translateY(0)'
     }
   }
 
-  function setZindex(): void {
-    document.getElementById(groupId).style.zIndex = "0"
+  function setZindex() {
+    const el = document.getElementById(groupId)
+    if (el) el.style.zIndex = "0"
   }
 
-  function reset(): void {
-    const hideLists = document.querySelectorAll('.group-card')
-    setOpacity(hideLists, "0");
-    for (let i = 0; i < groups.length; i++) {
-      (groups[i] as HTMLElement).style.zIndex = "-1"
-    }
+  function reset() {
+    setOpacity(document.querySelectorAll('.group-card'), "0")
+    groups.forEach((g) => {
+      (g as HTMLElement).style.zIndex = "-1"
+    });
   }
 
-  function renderDisplay() :void {
+  function renderDisplay() {
     reset()
     setTransitionY()
     setZindex()
-
-    const showList = document.querySelectorAll(`#${groupId} .group-card`)
-    setOpacity(showList, "1")
+    setOpacity(document.querySelectorAll(`#${groupId} .group-card`), "1")
   }
 
   if (displays[groupId]) {
@@ -67,5 +68,4 @@ function displayMenu(groupId: string) {
     displays[groupId] = true
     renderDisplay()
   }
-
 }
