@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width">
     {{ $styles := resources.Get "scss/index.scss" | toCSS | postCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="all">
-    <title>Mahti.org</title>
+    <title>mahti.org</title>
   </head>
   <body>
     <nav class="header">
       <div class="nav-left">
-        <h1><a href="/">Mahti.org</a></h1>
+        <h1><a href="/">mahti.org</a></h1>
       </div>
       <div class="nav-center">
         <ul>
