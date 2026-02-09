@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    {{ $styles := resources.Get "scss/index.scss" | toCSS | minify | fingerprint }}
+    {{ $styles := resources.Get "scss/index.scss" | toCSS | postCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="all">
     <title>Mahti.org</title>
   </head>
@@ -89,9 +89,8 @@
 
     </script>
 
-    {{ $ts := resources.Get "ts/main.ts" | babel }}
-    {{ $js := slice $ts | resources.Concat "js/main.js" }}
-    <script type="text/javascript" src="{{ $js.RelPermalink }}"></script>
+    {{ $js := resources.Get "ts/main.ts" | js.Build (dict "target" "es2015") | fingerprint }}
+    <script type="text/javascript" src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 
   </body>
 </html>
