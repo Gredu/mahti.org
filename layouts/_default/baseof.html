@@ -10,13 +10,13 @@
   <body>
     <nav class="header">
       <div class="nav-left">
-        <h1><a href="/">mahti.org</a></h1>
+        <h1 class="main-title"><a href="/">mahti.org</a></h1>
       </div>
       <div class="nav-center">
         <ul>
-          <a class="menu-item" href="javascript:;" onclick="displayMenu('uusimmat')"><li><span></span><span>uusimmat</span></li></a>
-          <a class="menu-item" href="javascript:;" onclick="displayMenu('kategoriat')"><li><span></span><span>kategoriat</span></li></a>
-          <a class="menu-item" href="javascript:;" onclick="displayMenu('tagit')"><li><span></span><span>tagit</span></li></a>
+          <li><a class="menu-item" href="javascript:;" onclick="displayMenu('uusimmat')">uusimmat</a></li>
+          <li><a class="menu-item" href="javascript:;" onclick="displayMenu('kategoriat')">kategoriat</a></li>
+          <li><a class="menu-item" href="javascript:;" onclick="displayMenu('tagit')">tagit</a></li>
         </ul>
       </div>
       <div class="nav-right"></div>
@@ -31,7 +31,7 @@
             {{ range .Pages }}
             <li>
               <a href="{{ .Permalink }}">{{ .Title }}</a>
-              <span class="groups--date"> {{ .PublishDate.Format "02.01.2006" }} </span>
+              <span class="groups--date"> {{ .PublishDate.Format "02.01." }} </span>
             </li>
             {{ end }}
           </ul>
