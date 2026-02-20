@@ -4,8 +4,8 @@ title = "mahti.org"
 enableGitInfo = true
 
 [taxonomies]
-  muistiinpano = "muistiinpanoja"
   blogi = "blogit"
+  tag = "tags"
 
 [markup]
   [markup.highlight]

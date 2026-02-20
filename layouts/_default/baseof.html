@@ -14,16 +14,32 @@
       </div>
       <div class="nav-center">
         <ul>
-          <a class="menu-item" href="javascript:;" onclick="displayMenu('blogit')"><li><span></span><span>blogit</span></li></a>
-          <a class="menu-item" href="javascript:;" onclick="displayMenu('muistiinpanoja')"><li><span></span><span>muistiinpanoja</span></li></a>
-          <a class="menu-item" href="javascript:;" onclick="displayMenu('kirjoittajat')"><li><span></span><span>kirjoittajat</span></li></a>
+          <a class="menu-item" href="javascript:;" onclick="displayMenu('uusimmat')"><li><span></span><span>uusimmat</span></li></a>
+          <a class="menu-item" href="javascript:;" onclick="displayMenu('kategoriat')"><li><span></span><span>kategoriat</span></li></a>
+          <a class="menu-item" href="javascript:;" onclick="displayMenu('tagit')"><li><span></span><span>tagit</span></li></a>
         </ul>
       </div>
       <div class="nav-right"></div>
     </nav>
     <div class="container">
 
-      <nav id="blogit" class="groups">
+      <nav id="uusimmat" class="groups">
+        {{ range (where .Site.RegularPages "Section" "blogi").GroupByPublishDate "2006" }}
+        <div class="group-card">
+          <h2>{{ .Key }}</h2>
+          <ul>
+            {{ range .Pages }}
+            <li>
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+              <span class="groups--date"> {{ .PublishDate.Format "02.01.2006" }} </span>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+      </nav>
+
+      <nav id="kategoriat" class="groups">
         {{ range $key, $value := .Site.Taxonomies.blogit }}
         <div class="group-card">
           <h2>{{ $key | humanize }}</h2>
@@ -44,33 +60,17 @@
         {{ end }}
       </nav>
 
-      <nav id="muistiinpanoja" class="groups">
-        {{ range $key, $value := .Site.Taxonomies.muistiinpanoja }}
+      <nav id="tagit" class="groups">
         <div class="group-card">
-          <h2>{{ $key | humanize }}</h2>
           <ul>
-            {{ range sort $value }}
+            {{ range $key, $value := .Site.Taxonomies.tags }}
             <li>
-              <a href="{{ .Permalink }}">{{ .Title }}</a>
-              <span class="groups--date">{{ .Lastmod.Format "02.01.2006" }}</span>
+              <a href="/tags/{{ $key | urlize }}">{{ $key | humanize }} ({{ len $value }})</a>
             </li>
             {{ end }}
           </ul>
         </div>
-        {{ end }}
       </nav>
-
-      <nav id="kirjoittajat" class="groups">
-        <div class="group-card">
-          <span class="info gredu">Bloggaa kommuuniasumisesta, teknologiasta ja ohjelmoinnista. Tanssii, retkeilee ja välillä laskettelee.</span>
-          <img src="https://raw.githubusercontent.com/Gredu/cv.mahti.org/master/static/greatman-lim.jpg" alt="Greatman Lim">
-          <h2>Greatman Lim</h2>
-          <span class="email">etunimi.sukunimi@mahti.org</span>
-          <div class="writer-info">
-          </div>
-        </div>
-      </nav>
-
 
       <main id="main">
         {{ block "main" . }}{{ end }}

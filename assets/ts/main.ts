@@ -1,7 +1,7 @@
 const displays: any = {
-  blogit: false,
-  muistiinpanoja: false,
-  kirjoittajat: false,
+  uusimmat: false,
+  kategoriat: false,
+  tagit: false,
 };
 
 (window as any).displayMenu = function(groupId: string) {
