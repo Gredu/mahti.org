@@ -38,43 +38,40 @@
   <h1>
     {{ .Title }}
   </h1>
-  <div class="side-info">
-    {{ $sideInfoIconSize := 16 }}
-    <ul>
-      <li>
-        <div>
-          {{ with .PublishDate }}
-          {{ .Format "02.01.2006" }}
-          {{ end }}
-        </div>
-        <div class="icon">
-          {{ partial "icons/icon" (dict "vendor" "lucide" "name" "calendar") }}
-        </div>
-      </li>
-      <li>
-        <div>
-          {{ if lt .ReadingTime 2 }}
-          alle minuutti
-          {{ else }}
-          {{ .ReadingTime }} minuuttia
-          {{ end }}
-        </div>
-        <div class="icon">
+  <ul class="side-info">
+    <li>
+      <div>
+        {{ with .PublishDate }}
+        {{ .Format "02.01.2006" }}
+        {{ end }}
+      </div>
+      <div class="icon">
+        {{ partial "icons/icon" (dict "vendor" "lucide" "name" "calendar") }}
+      </div>
+    </li>
+    <li>
+      <div>
+        {{ if lt .ReadingTime 2 }}
+        alle minuutti
+        {{ else }}
+        {{ .ReadingTime }} minuuttia
+        {{ end }}
+      </div>
+      <div class="icon">
         {{ partial "icons/icon" (dict "vendor" "lucide" "name" "clock") }}
-        </div>
-      </li>
-      <li>
-        <div>
-          {{ range .Params.blogit }}
-          {{ . }}
-          {{ end }}
-        </div>
-        <div class="icon">
+      </div>
+    </li>
+    <li>
+      <div>
+        {{ range .Params.blogit }}
+        {{ . }}
+        {{ end }}
+      </div>
+      <div class="icon">
         {{ partial "icons/icon" (dict "vendor" "lucide" "name" "box") }}
-        </div>
-      </li>
-    </ul>
-  </div>
+      </div>
+    </li>
+  </ul>
   {{ $headerInfoSize := "24px" }}
   <div class="header-info for-small-screen">
     {{ $headerInfoIconSize := 24 }}
