@@ -38,9 +38,7 @@
       </div>
     </li>
   </ul>
-  {{ $headerInfoSize := "24px" }}
   <div class="header-info for-small-screen">
-    {{ $headerInfoIconSize := 24 }}
     {{ with .PublishDate }}
     <div class="header-info--item">
       {{ partial "icons/icon" (dict "vendor" "lucide" "name" "calendar") }}
