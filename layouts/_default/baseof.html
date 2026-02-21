@@ -72,10 +72,12 @@
         </div>
       </nav>
 
-      <main id="main">
-        {{ block "main" . }}{{ end }}
-      </main>
     </div>
+    <main id="main">
+      <div class="signature">
+      </div>
+      {{ block "main" . }}{{ end }}
+    </main>
 
     <script type="text/javascript">
       let resizeTimer;
