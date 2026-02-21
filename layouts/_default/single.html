@@ -12,7 +12,17 @@
         {{ end }}
       </div>
       <div class="icon">
-        {{ partial "icons/icon" (dict "vendor" "lucide" "name" "calendar") }}
+        {{ partial "icons/icon" (dict "vendor" "lucide" "name" "feather") }}
+      </div>
+    </li>
+    <li>
+      <div>
+        {{ with .Lastmod }}
+        {{ .Format "02.01.2006" }}
+        {{ end }}
+      </div>
+      <div class="icon">
+        {{ partial "icons/icon" (dict "vendor" "lucide" "name" "eraser") }}
       </div>
     </li>
     <li>
@@ -87,5 +97,4 @@
   </div>
 
 </article>
-{{ end }}
 {{ end }}
