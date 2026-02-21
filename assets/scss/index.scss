@@ -36,6 +36,10 @@ body {
   background: $background;
 }
 
+a:visited, a:link {
+  color: $text-color;
+}
+
 h1 {
   font-size: 2.4rem;
   margin-bottom: 1rem;
@@ -178,13 +182,6 @@ nav {
       opacity: 0;
       transition: all .3s ease-out;
     }
-  }
-}
-
-.container {
-  position: relative;
-  a:visited, a:link {
-    color: $text-color;
   }
 }
 
