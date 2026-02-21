@@ -1,38 +1,4 @@
 {{ define "main" }}
-{{ if eq .Type "muistiinpano" }}
-<div class="main-note">
-  <nav class="--sidebar">
-    <h2>Jäsennys</h2>
-    {{ .TableOfContents }}
-  </nav>
-  <article class="article--notes">
-    {{ .Data.Terms }}
-    <h1>{{ .Title }}</h1>
-    <div class="header-info">
-      {{ $headerInfoIconSize := 24 }}
-      <div class="header-info--item">
-        {{ partial "icons/icon" (dict "vendor" "lucide" "name" "calendar")}}
-        <span>{{ .Lastmod.Format "02.01.2006" }}</span>
-      </div>
-      <div class="header-info--item">
-        {{ partial "icons/icon" (dict "vendor" "lucide" "name" "user-round")}}
-        <span>{{ .Params.Author }}</span>
-      </div>
-      <div class="header-info--item">
-        {{ partial "icons/icon" (dict "vendor" "lucide" "name" "clock")}}
-        <span>
-          {{ if lt .ReadingTime 2 }}
-          alle minuutti
-          {{ else }}
-          {{ .ReadingTime }} minuuttia
-          {{ end }}
-        </span>
-      </div>
-    </div>
-      {{ .Content }}
-    </article>
-  </div>
-{{ else }}
 <article class="article--blog">
   {{ .Data.Terms }}
   <h1>
