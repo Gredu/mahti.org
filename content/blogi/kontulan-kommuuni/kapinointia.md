@@ -1,7 +1,7 @@
 ---
 title: "Kapinointia"
 author: "Greatman Lim"
-blogit: ["Kontulan kommuuni"]
+blogit: ["Päiväkirja"]
 date: "2021-03-15"
 draft: true
 ---

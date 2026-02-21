@@ -1,7 +1,7 @@
 ---
 title: "Itsestäänselviä sääntöjä"
 author: "Greatman Lim"
-blogit: ["Kontulan kommuuni"]
+blogit: ["Päiväkirja"]
 date: "2021-03-11"
 ---
 

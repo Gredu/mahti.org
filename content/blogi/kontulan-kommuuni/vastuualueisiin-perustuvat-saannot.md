@@ -1,7 +1,7 @@
 ---
 title: "Vastuualueisiin perustuvat säännöt"
 author: "Greatman Lim"
-blogit: ["Kontulan kommuuni"]
+blogit: ["Päiväkirja"]
 date: "2021-03-16"
 ---
 Vastuualueisiin perustuvista säännöistä on kirjoitettu jo vähän [hallitusmuodot]({{< ref "/blogi/kontulan-kommuuni/hallitusmuodot.md">}}) blogissa. Kerrotaan vastuualueista kuitenkin vähän tarkemmin, koska se on tämän hetkinen "hallitusmuoto".
