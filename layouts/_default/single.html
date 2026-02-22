@@ -5,17 +5,17 @@
     {{ .Title }}
   </h1>
   <ul class="side-info">
-    <li>
+    <li class="item">
       <div>
         {{ with .PublishDate }}
         {{ .Format "02.01.2006" }}
         {{ end }}
       </div>
       <div class="icon">
-        {{ partial "icons/icon" (dict "vendor" "lucide" "name" "feather") }}
+        {{ partial "icons/icon" (dict "vendor" "lucide" "name" "pencil") }}
       </div>
     </li>
-    <li>
+    <li class="item">
       <div>
         {{ with .Lastmod }}
         {{ .Format "02.01.2006" }}
@@ -25,7 +25,7 @@
         {{ partial "icons/icon" (dict "vendor" "lucide" "name" "eraser") }}
       </div>
     </li>
-    <li>
+    <li class="item">
       <div>
         {{ if lt .ReadingTime 2 }}
         alle minuutti
@@ -37,15 +37,31 @@
         {{ partial "icons/icon" (dict "vendor" "lucide" "name" "clock") }}
       </div>
     </li>
-    <li>
+    <li class="item">
       <div>
         {{ range .Params.blogit }}
-        {{ . }}
+        {{ . | lower }}
         {{ end }}
       </div>
       <div class="icon">
         {{ partial "icons/icon" (dict "vendor" "lucide" "name" "box") }}
       </div>
+    </li>
+    <li class="items">
+      {{ range .Params.tags }}
+      {{ $rawTag := . }}
+      {{ $urlizedTag := . | urlize }}
+      {{ $tagPageCollection := (index $.Site.Taxonomies.tags $rawTag) }}
+      
+      <a href='{{ "/tags/" | relLangURL }}{{ $urlizedTag }}'>
+          <div>
+          ({{ len $tagPageCollection }}) {{ $rawTag }}
+          </div>
+          <div class="icon">
+            {{ partial "icons/icon" (dict "vendor" "lucide" "name" "tags") }}
+          </div>
+        </a>
+      {{ end }}
     </li>
   </ul>
   <div class="header-info for-small-screen">

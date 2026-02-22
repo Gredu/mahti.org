@@ -233,7 +233,7 @@ nav {
       width: 14rem;
       color: $text-color;
       transform: translate(-18.5rem);
-      li {
+      li.item {
         display: flex;
         gap: .8rem;
         margin-bottom: .2rem;
@@ -246,6 +246,20 @@ nav {
           &.icon {
             width: 1rem;
             height: 1rem;
+          }
+        }
+      }
+      li.items {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        & a {
+          display: flex;
+          gap: .8rem;
+          justify-content: end;
+          text-decoration: none;
+          div {
+            white-space: nowrap;
           }
         }
       }
