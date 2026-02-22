@@ -54,13 +54,13 @@
       {{ $tagPageCollection := (index $.Site.Taxonomies.tags $rawTag) }}
       
       <a href='{{ "/tags/" | relLangURL }}{{ $urlizedTag }}'>
-          <div>
-          ({{ len $tagPageCollection }}) {{ $rawTag }}
-          </div>
-          <div class="icon">
-            {{ partial "icons/icon" (dict "vendor" "lucide" "name" "tags") }}
-          </div>
-        </a>
+        <div>
+          {{ len $tagPageCollection }}) {{ $rawTag }}
+        </div>
+        <div class="icon">
+          {{ partial "icons/icon" (dict "vendor" "lucide" "name" "tags") }}
+        </div>
+      </a>
       {{ end }}
     </li>
   </ul>
