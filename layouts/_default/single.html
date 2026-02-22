@@ -37,17 +37,19 @@
         {{ partial "icons/icon" (dict "vendor" "lucide" "name" "clock") }}
       </div>
     </li>
-    <li class="item">
-      <div>
-        {{ range .Params.blogit }}
-        {{ . | lower }}
-        {{ end }}
-      </div>
-      <div class="icon">
-        {{ partial "icons/icon" (dict "vendor" "lucide" "name" "box") }}
-      </div>
+    <li class="link-item">
+      {{ range .Params.blogit }}
+      <a href='{{ "/blogit/" | relLangURL }}{{ . | urlize }}'>
+        <div>
+          {{ . | lower }}
+        </div>
+        <div class="icon">
+          {{ partial "icons/icon" (dict "vendor" "lucide" "name" "box") }}
+        </div>
+      </a>
+      {{ end }}
     </li>
-    <li class="items">
+    <li class="link-items">
       {{ range .Params.tags }}
       {{ $rawTag := . }}
       {{ $urlizedTag := . | urlize }}
