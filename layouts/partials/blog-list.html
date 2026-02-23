@@ -27,7 +27,7 @@
       {{ partial "icons/icon" (dict "vendor" "lucide" "name" "box") }}
       <span>
         {{ range .Params.blogit }}
-        {{ . }}
+        <a href="/blogit/{{ . | urlize }}">{{ . }}</a>
         {{ end }}
       </span>
     </div>

@@ -216,6 +216,9 @@ nav {
           white-space: nowrap;
           color: $text-color;
         }
+        a {
+          text-decoration: none;
+        }
       }
     }
   }
