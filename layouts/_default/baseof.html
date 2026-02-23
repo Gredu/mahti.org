@@ -71,9 +71,9 @@
       <nav id="tagit" class="groups">
         <div class="group-card">
           <ul>
-            {{ range $key, $value := .Site.Taxonomies.tags }}
+            {{ range .Site.Taxonomies.tags.ByCount }}
             <li>
-              <a href="/tags/{{ $key | urlize }}">{{ $key | humanize }} ({{ len $value }})</a>
+              <a href="/tags/{{ .Name | urlize }}">{{ .Name | humanize }} ({{ .Count }})</a>
             </li>
             {{ end }}
           </ul>
