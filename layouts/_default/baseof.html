@@ -30,8 +30,16 @@
           <ul>
             {{ range .Pages }}
             <li>
-              <a href="{{ .Permalink }}">{{ .Title }}</a>
-              <span class="groups--date"> {{ .PublishDate.Format "02.01." }} </span>
+              <a href="{{ .Permalink }}" class="flex">
+                <!-- <div>{{ partial "icons/icon" (dict "vendor" "lucide" "name" "eraser") }}</div> -->
+                <div>
+                  {{ $key := dict "key" .Key }}
+                  {{ partial "category-icon" . }}
+                </div>
+                <div>{{ .Title }}
+                  <span class="groups--date"> {{ .PublishDate.Format "02.01." }} </span>
+                </div>
+              </a>
             </li>
             {{ end }}
           </ul>

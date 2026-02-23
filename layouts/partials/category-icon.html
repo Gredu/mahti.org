@@ -1,0 +1,12 @@
+{{ $category := index .Params.blogit 0 }}
+{{ $icon := "" }}
+
+{{ if eq $category "Koodi" }}
+  {{ $icon = "laptop" }}
+{{ else if eq $category "Päiväkirja" }}
+  {{ $icon = "feather" }}
+{{ else }}
+  {{ $icon = "default" }}
+{{ end }}
+
+{{ partial "icons/icon" (dict "vendor" "lucide" "name" $icon) }}
