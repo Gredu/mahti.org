@@ -1,5 +1,5 @@
 ---
-title: "Kontulaan Kommuunin vastuualueisiin perustuvat säännöt"
+title: "Kontulan Kommuunin vastuualueisiin perustuvat säännöt"
 author: "Greatman Lim"
 blogit: ["Päiväkirja"]
 tags: ["siivous-säännöt", "hallitusmuoto", "vastuu-alueet", "kontulan-kommuuni"]
