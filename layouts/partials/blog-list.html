@@ -6,6 +6,14 @@
       <span>{{ .PublishDate.Format "02.01.2006" }}</span>
     </div>
     <div class="header-info--item">
+      {{ partial "icons/icon" (dict "vendor" "lucide" "name" "eraser") }}
+      <span>
+        {{ with .Lastmod }}
+        {{ .Format "02.01.2006" }}
+        {{ end }}
+      </span>
+    </div>
+    <div class="header-info--item">
       {{ partial "icons/icon" (dict "vendor" "lucide" "name" "clock") }}
       <span>
         {{ if lt .ReadingTime 2 }}
