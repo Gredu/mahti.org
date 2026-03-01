@@ -9,7 +9,7 @@ date: "2021-03-27"
 
 ## Tiskisäännön poikkeus: kaverisääntö
 
-Tämä on hyvä esimerkki säännöstä, joka ei täytä tavoitteita, vaikka sääntöä noudatetaankin. Kaverisääntö sanoo, että **tiskit saa jättää tiskaamatta, jos sinulla on kaveri tai kavereita kylässä.**
+Tämä on hyvä esimerkki säännöstä, joka ei täytä tavoitteita, vaikka sääntöä noudatetaankin. Kaverisääntö sanoo, että **tiskit saa jättää tiskaamatta, jos sinulla on kavereita kylässä.**
 
 Tässä säännöstä ei tule ilmi tavoitetta ja sääntö on liian epätarkka, jonka takia sitä on helppo hyväksikäyttää. Poikkeussäännön tavoitteena oli antaa seurustelutilaa ilman painetta tiskaamisesta. Näin sääntöä on käytetty väärin:
 
